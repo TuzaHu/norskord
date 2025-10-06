@@ -1,0 +1,82 @@
+{
+  "total_sessions": 7,
+  "total_words_attempted": 23,
+  "total_correct": 20,
+  "accuracy_history": [
+    100.0,
+    100.0,
+    100.0,
+    100.0,
+    50.0,
+    50.0,
+    2.4096385542168677
+  ],
+  "session_history": [
+    {
+      "date": "2025-09-21T04:47:14.859943",
+      "total_words": 10,
+      "correct_words": 10,
+      "accuracy": 100.0,
+      "difficulty": "easy"
+    },
+    {
+      "date": "2025-09-26T00:20:57.630256",
+      "total_words": 2,
+      "correct_words": 2,
+      "accuracy": 100.0,
+      "difficulty": "easy"
+    },
+    {
+      "date": "2025-09-26T00:21:24.909323",
+      "total_words": 2,
+      "correct_words": 2,
+      "accuracy": 100.0,
+      "difficulty": "easy"
+    },
+    {
+      "date": "2025-09-30T04:13:00.413245",
+      "total_words": 2,
+      "correct_words": 2,
+      "accuracy": 100.0,
+      "difficulty": "easy"
+    },
+    {
+      "date": "2025-10-01T05:26:14.056088",
+      "total_words": 2,
+      "correct_words": 1,
+      "accuracy": 50.0,
+      "difficulty": "easy"
+    },
+    {
+      "date": "2025-10-01T05:27:07.252441",
+      "total_words": 2,
+      "correct_words": 1,
+      "accuracy": 50.0,
+      "difficulty": "easy"
+    },
+    {
+      "date": "2025-10-01T05:28:03.467175",
+      "total_words": 83,
+      "correct_words": 2,
+      "accuracy": 2.4096385542168677,
+      "difficulty": "easy"
+    }
+  ],
+  "difficulty_stats": {
+    "easy": {
+      "attempted": 23,
+      "correct": 20
+    },
+    "medium": {
+      "attempted": 0,
+      "correct": 0
+    },
+    "hard": {
+      "attempted": 0,
+      "correct": 0
+    }
+  },
+  "current_streak": 2,
+  "longest_streak": 2,
+  "last_session_date": "2025-10-01"
+}

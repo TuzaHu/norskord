@@ -1,0 +1,835 @@
+{
+  "words": {
+    "Nedstengningsprosedyrer": {
+      "audio_file": "Nedstengningsprosedyrer.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282640",
+      "auto_generated": true
+    },
+    "Klargjøre materialer": {
+      "audio_file": "Klargjøre materialer.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282675",
+      "auto_generated": true
+    },
+    "Hva er kapasiteten": {
+      "audio_file": "Hva er kapasiteten.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282681",
+      "auto_generated": true
+    },
+    "føre": {
+      "audio_file": "føre.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282685",
+      "auto_generated": true
+    },
+    "egnet": {
+      "audio_file": "egnet.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282689",
+      "auto_generated": true
+    },
+    "Bærekraftig": {
+      "audio_file": "Bærekraftig.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282692",
+      "auto_generated": true
+    },
+    "Kvalitetstester": {
+      "audio_file": "Kvalitetstester.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282696",
+      "auto_generated": true
+    },
+    "Avvikshåndtering": {
+      "audio_file": "Avvikshåndtering.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282700",
+      "auto_generated": true
+    },
+    "tilgang": {
+      "audio_file": "tilgang.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282703",
+      "auto_generated": true
+    },
+    "Verdikjeden": {
+      "audio_file": "Verdikjeden.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282706",
+      "auto_generated": true
+    },
+    "forurensing": {
+      "audio_file": "forurensing.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282709",
+      "auto_generated": true
+    },
+    "Færre enheter": {
+      "audio_file": "Færre enheter.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282713",
+      "auto_generated": true
+    },
+    "å tåle problemer underveis": {
+      "audio_file": "å tåle problemer underveis.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282717",
+      "auto_generated": true
+    },
+    "omstillingen": {
+      "audio_file": "omstillingen.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282720",
+      "auto_generated": true
+    },
+    "Ryddighet": {
+      "audio_file": "Ryddighet.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282729",
+      "auto_generated": true
+    },
+    "markedsføring": {
+      "audio_file": "markedsføring.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282732",
+      "auto_generated": true
+    },
+    "Mange reklamasjoner": {
+      "audio_file": "Mange reklamasjoner.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282739",
+      "auto_generated": true
+    },
+    "gjennomføringen av": {
+      "audio_file": "gjennomføringen av.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282743",
+      "auto_generated": true
+    },
+    "produksjonsinnsatsfaktorer": {
+      "audio_file": "produksjonsinnsatsfaktorer.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282746",
+      "auto_generated": true
+    },
+    "Betjening av styresystemer": {
+      "audio_file": "Betjening av styresystemer.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282753",
+      "auto_generated": true
+    },
+    "Måter": {
+      "audio_file": "Måter.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282756",
+      "auto_generated": true
+    },
+    "Videre handler om": {
+      "audio_file": "Videre handler om.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282760",
+      "auto_generated": true
+    },
+    "regne": {
+      "audio_file": "regne.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282763",
+      "auto_generated": true
+    },
+    "Forurensning": {
+      "audio_file": "Forurensning.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282766",
+      "auto_generated": true
+    },
+    "Tilhørende": {
+      "audio_file": "Tilhørende.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282770",
+      "auto_generated": true
+    },
+    "Resirkulering og gjenbruk": {
+      "audio_file": "Resirkulering og gjenbruk.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282773",
+      "auto_generated": true
+    },
+    "utstyret": {
+      "audio_file": "utstyret.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282776",
+      "auto_generated": true
+    },
+    "Skarpe konkurrent": {
+      "audio_file": "Skarpe konkurrent.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282779",
+      "auto_generated": true
+    },
+    "Ressursutnyttelse": {
+      "audio_file": "Ressursutnyttelse.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282783",
+      "auto_generated": true
+    },
+    "Innsatsfaktorer": {
+      "audio_file": "Innsatsfaktorer.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282786",
+      "auto_generated": true
+    },
+    "Kvalitetsstyringssystem": {
+      "audio_file": "Kvalitetsstyringssystem.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282789",
+      "auto_generated": true
+    },
+    "I Hviken retning": {
+      "audio_file": "I Hviken retning.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282793",
+      "auto_generated": true
+    },
+    "vedlikehold": {
+      "audio_file": "vedlikehold.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282796",
+      "auto_generated": true
+    },
+    "underveis": {
+      "audio_file": "underveis.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282799",
+      "auto_generated": true
+    },
+    "Har nytte av hverande": {
+      "audio_file": "Har nytte av hverande.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282806",
+      "auto_generated": true
+    },
+    "Ulik": {
+      "audio_file": "Ulik.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282809",
+      "auto_generated": true
+    },
+    "Råvarene": {
+      "audio_file": "Råvarene.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282812",
+      "auto_generated": true
+    },
+    "samfunnet": {
+      "audio_file": "samfunnet.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282815",
+      "auto_generated": true
+    },
+    "Kjente begrep": {
+      "audio_file": "Kjente begrep.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282818",
+      "auto_generated": true
+    },
+    "lokalene": {
+      "audio_file": "lokalene.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282821",
+      "auto_generated": true
+    },
+    "Gjennomføre": {
+      "audio_file": "Gjennomføre.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282824",
+      "auto_generated": true
+    },
+    "rådighet": {
+      "audio_file": "rådighet.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282827",
+      "auto_generated": true
+    },
+    "dermed": {
+      "audio_file": "dermed.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282830",
+      "auto_generated": true
+    },
+    "Kvalitetskrav": {
+      "audio_file": "Kvalitetskrav.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282834",
+      "auto_generated": true
+    },
+    "rengjøring": {
+      "audio_file": "rengjøring.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282837",
+      "auto_generated": true
+    },
+    "ukentlige": {
+      "audio_file": "ukentlige.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282840",
+      "auto_generated": true
+    },
+    "Kreve endring": {
+      "audio_file": "Kreve endring.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282843",
+      "auto_generated": true
+    },
+    "skape flaskehalse": {
+      "audio_file": "skape flaskehalse.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282846",
+      "auto_generated": true
+    },
+    "Som kan utnyttes ut fra tankem": {
+      "audio_file": "Som kan utnyttes ut fra tankem.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282853",
+      "auto_generated": true
+    },
+    "markedet forandrer seg": {
+      "audio_file": "markedet forandrer seg.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282856",
+      "auto_generated": true
+    },
+    "Oppstart og nedstenging": {
+      "audio_file": "Oppstart og nedstenging.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282860",
+      "auto_generated": true
+    },
+    "Lønnsomhet": {
+      "audio_file": "Lønnsomhet.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282863",
+      "auto_generated": true
+    },
+    "I forbindelse": {
+      "audio_file": "I forbindelse.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282877",
+      "auto_generated": true
+    },
+    "Fortjeneste": {
+      "audio_file": "Fortjeneste.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282884",
+      "auto_generated": true
+    },
+    "Romme": {
+      "audio_file": "Romme.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282887",
+      "auto_generated": true
+    },
+    "grunnleggende": {
+      "audio_file": "grunnleggende.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282890",
+      "auto_generated": true
+    },
+    "overordnet": {
+      "audio_file": "overordnet.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282893",
+      "auto_generated": true
+    },
+    "tilpasset": {
+      "audio_file": "tilpasset.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282896",
+      "auto_generated": true
+    },
+    "støttefuksjoner": {
+      "audio_file": "støttefuksjoner.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282899",
+      "auto_generated": true
+    },
+    "utslipp": {
+      "audio_file": "utslipp.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282902",
+      "auto_generated": true
+    },
+    "Kort sagt": {
+      "audio_file": "Kort sagt.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282905",
+      "auto_generated": true
+    },
+    "etterspør": {
+      "audio_file": "etterspør.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282908",
+      "auto_generated": true
+    },
+    "Planlegge": {
+      "audio_file": "Planlegge.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282911",
+      "auto_generated": true
+    },
+    "etterspørselen blir borte": {
+      "audio_file": "etterspørselen blir borte.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282914",
+      "auto_generated": true
+    },
+    "Risikovurdere": {
+      "audio_file": "Risikovurdere.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282917",
+      "auto_generated": true
+    },
+    "Optimalisering": {
+      "audio_file": "Optimalisering.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282920",
+      "auto_generated": true
+    },
+    "Anlegg for produkthåndtering": {
+      "audio_file": "Anlegg for produkthåndtering.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282924",
+      "auto_generated": true
+    },
+    "rimeligere": {
+      "audio_file": "rimeligere.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282927",
+      "auto_generated": true
+    },
+    "Færre": {
+      "audio_file": "Færre.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282930",
+      "auto_generated": true
+    },
+    "inntjening": {
+      "audio_file": "inntjening.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282933",
+      "auto_generated": true
+    },
+    "Instilling av driftparametere": {
+      "audio_file": "Instilling av driftparametere.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282936",
+      "auto_generated": true
+    },
+    "Kjerneelementet": {
+      "audio_file": "Kjerneelementet.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282939",
+      "auto_generated": true
+    },
+    "En unngår": {
+      "audio_file": "En unngår.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282942",
+      "auto_generated": true
+    },
+    "Forståelse for orden": {
+      "audio_file": "Forståelse for orden.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282953",
+      "auto_generated": true
+    },
+    "trekker til seg": {
+      "audio_file": "trekker til seg.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282956",
+      "auto_generated": true
+    },
+    "Gjeldende retningslinjer": {
+      "audio_file": "Gjeldende retningslinjer.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282959",
+      "auto_generated": true
+    },
+    "Redusere behovet": {
+      "audio_file": "Redusere behovet.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282962",
+      "auto_generated": true
+    },
+    "Vurdere": {
+      "audio_file": "Vurdere.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282965",
+      "auto_generated": true
+    },
+    "Jakter": {
+      "audio_file": "Jakter.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282968",
+      "auto_generated": true
+    },
+    "Utarbeide": {
+      "audio_file": "Utarbeide.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282971",
+      "auto_generated": true
+    },
+    "ledelse": {
+      "audio_file": "ledelse.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282974",
+      "auto_generated": true
+    },
+    "Ut fra hensikten": {
+      "audio_file": "Ut fra hensikten.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282977",
+      "auto_generated": true
+    },
+    "dessuten": {
+      "audio_file": "dessuten.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "1",
+      "tags": [],
+      "translation": null,
+      "last_updated": "2025-09-26T00:16:25.282980",
+      "auto_generated": true
+    }
+  },
+  "last_updated": "2024-01-01T00:00:00"
+}

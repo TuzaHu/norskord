@@ -1,0 +1,34 @@
+{
+  "words": {
+    "oppusset bærbar PC : Refurbished laptop": {
+      "audio_file": "oppusset bærbar PC : Refurbished laptop.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "refurbished laptop : Refurbished laptop",
+      "last_updated": "2025-10-05T15:32:53.261466",
+      "auto_generated": true
+    },
+    "Mobiltilbehør : Phone accessories": {
+      "audio_file": "Mobiltilbehør : Phone accessories.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Mobile accessories : Phone accessories",
+      "last_updated": "2025-10-05T15:32:54.200650",
+      "auto_generated": true
+    },
+    "Data tilbehør : Computer accessories": {
+      "audio_file": "Data tilbehør : Computer accessories.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Computer accessories : Computer accessories",
+      "last_updated": "2025-10-05T15:32:55.740895",
+      "auto_generated": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "easy": [],
+  "medium": [],
+  "hard": [
+    {
+      "word": "oppusset bærbar PC : Refurbished laptop",
+      "translation": "refurbished laptop : Refurbished laptop",
+      "audio": "audio/oppusset bærbar PC : Refurbished laptop.mp3"
+    },
+    {
+      "word": "Mobiltilbehør : Phone accessories",
+      "translation": "Mobile accessories : Phone accessories",
+      "audio": "audio/Mobiltilbehør : Phone accessories.mp3"
+    },
+    {
+      "word": "Data tilbehør : Computer accessories",
+      "translation": "Computer accessories : Computer accessories",
+      "audio": "audio/Data tilbehør : Computer accessories.mp3"
+    }
+  ]
+}

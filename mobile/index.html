@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>PREPP-Lingo - Norsk Diktat</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="icon-192.png">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader"></div>
+        <p>Laster PREPP-Lingo...</p>
+    </div>
+
+    <!-- Main App Container -->
+    <div id="app" class="app-container" style="display: none;">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-top">
+                <div class="streak">🔥 <span id="streak-count">0</span> dager</div>
+                <button class="settings-btn" onclick="openSettings()">⚙</button>
+            </div>
+            <div class="logo-section">
+                <div class="logo">🎯</div>
+                <h1>PREPP-Lingo</h1>
+                <p class="subtitle">Norsk Diktat Øvelse</p>
+            </div>
+        </header>
+
+        <!-- Progress Bar -->
+        <div class="progress-section">
+            <div class="hearts">
+                <span class="label">Hjerter:</span>
+                <span id="hearts-display">❤️❤️❤️</span>
+            </div>
+            <div class="progress-info">
+                <span id="word-counter">0/10</span>
+            </div>
+            <div class="timer-info" id="timer-display" style="display: none;">
+                <span class="label">⏰ Tid:</span>
+                <span id="timer-countdown">10</span>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Instruction -->
+            <div class="instruction">
+                <p id="instruction-text">Trykk "Start" for å begynne</p>
+            </div>
+
+            <!-- Audio Button -->
+            <button id="play-audio-btn" class="audio-btn" onclick="playAudio()" disabled>
+                🔊 Spill Lyd
+            </button>
+
+            <!-- Input Field -->
+            <div class="input-container">
+                <textarea 
+                    id="answer-input" 
+                    class="answer-input" 
+                    placeholder="Skriv svaret ditt her..."
+                    disabled
+                    rows="3"
+                ></textarea>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button id="submit-btn" class="btn btn-primary" onclick="submitAnswer()" disabled>
+                    ✓ Sjekk
+                </button>
+                <button id="hint-btn" class="btn btn-secondary" onclick="useHint()" disabled>
+                    💡 Hint
+                </button>
+            </div>
+
+            <!-- Result Display -->
+            <div id="result-display" class="result-display"></div>
+        </main>
+
+        <!-- Start Button -->
+        <div class="start-section">
+            <button id="start-btn" class="btn btn-start" onclick="startSession()">
+                🚀 Start Leksjon
+            </button>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>⚙ Innstillinger</h2>
+                <button class="close-btn" onclick="closeSettings()">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="setting-group">
+                    <label>Kapitel:</label>
+                    <select id="chapter-select" class="select-input">
+                        <option value="capital_one">Kapitel 1 - Grunnleggende</option>
+                        <option value="capital_two" disabled>Kapitel 2 - Middels (🔒 Låst)</option>
+                        <option value="capital_three" disabled>Kapitel 3 - Avansert (🔒 Låst)</option>
+                    </select>
+                </div>
+                <div class="setting-group">
+                    <label>Spillmodus:</label>
+                    <select id="game-mode" class="select-input">
+                        <option value="practice">Øvelse</option>
+                        <option value="action">Aksjon</option>
+                    </select>
+                </div>
+                <div class="setting-group">
+                    <label>Vanskelighetsgrad:</label>
+                    <select id="difficulty" class="select-input">
+                        <option value="easy">Lett</option>
+                        <option value="medium">Middels</option>
+                        <option value="hard">Vanskelig</option>
+                    </select>
+                </div>
+                <div class="setting-group">
+                    <label>Antall ord:</label>
+                    <select id="word-count" class="select-input">
+                        <option value="5">5 ord</option>
+                        <option value="10" selected>10 ord</option>
+                        <option value="15">15 ord</option>
+                        <option value="20">20 ord</option>
+                    </select>
+                </div>
+                <div class="setting-group">
+                    <label class="toggle-label">
+                        <input type="checkbox" id="show-translation" checked>
+                        <span>Vis oversettelse</span>
+                    </label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" onclick="saveSettings()">💾 Lagre</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js?v=25"></script>
+</body>
+</html>

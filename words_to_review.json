@@ -1,0 +1,206 @@
+{
+  "M\u00e5ter": {
+    "next_review": "2025-09-27T05:25:10.185345",
+    "interval": 2
+  },
+  "egnet": {
+    "next_review": "2027-02-15T07:30:03.356174",
+    "interval": 512
+  },
+  "lokalene": {
+    "next_review": "2028-07-15T05:24:34.187289",
+    "interval": 1024
+  },
+  "r\u00e5dighet": {
+    "next_review": "2025-09-27T05:19:50.130832",
+    "interval": 2
+  },
+  "Romme": {
+    "next_review": "2036-12-12T05:24:17.825900",
+    "interval": 4096
+  },
+  "dermed": {
+    "next_review": "2025-09-27T05:14:47.960520",
+    "interval": 2
+  },
+  "Ulik": {
+    "next_review": "2025-10-07T07:27:07.168243",
+    "interval": 16
+  },
+  "utslipp": {
+    "next_review": "2025-09-29T05:24:56.289045",
+    "interval": 4
+  },
+  "ledelse": {
+    "next_review": "2025-10-11T05:22:10.246346",
+    "interval": 16
+  },
+  "f\u00f8re": {
+    "next_review": "2025-10-03T05:22:03.882205",
+    "interval": 8
+  },
+  "dessuten": {
+    "next_review": "2025-09-26T05:18:24.371967",
+    "interval": 1
+  },
+  "F\u00e6rre": {
+    "next_review": "2025-10-07T04:33:32.285370",
+    "interval": 16
+  },
+  "R\u00e5varene": {
+    "next_review": "2025-09-29T05:25:03.537026",
+    "interval": 4
+  },
+  "tilgang": {
+    "next_review": "2027-02-19T05:24:49.063640",
+    "interval": 512
+  },
+  "Vurdere": {
+    "next_review": "2025-10-03T05:19:08.984406",
+    "interval": 8
+  },
+  "regne": {
+    "next_review": "2025-09-27T05:17:32.561299",
+    "interval": 2
+  },
+  "skape flaskehalse": {
+    "next_review": "2025-09-10T22:29:20.931769",
+    "interval": 1
+  },
+  "Har nytte av hverande": {
+    "next_review": "2025-09-17T23:32:56.241116",
+    "interval": 8
+  },
+  "\u00e5 t\u00e5le problemer underveis": {
+    "next_review": "2025-09-11T22:21:45.470077",
+    "interval": 2
+  },
+  "Nedstengningsprosedyrer": {
+    "next_review": "2025-09-10T22:28:57.921204",
+    "interval": 1
+  },
+  "Videre handler om": {
+    "next_review": "2025-09-11T23:33:39.018341",
+    "interval": 2
+  },
+  "Redusere behovet": {
+    "next_review": "2025-09-25T23:35:22.669104",
+    "interval": 16
+  },
+  "Skarpe konkurrent": {
+    "next_review": "2025-09-12T20:26:50.104817",
+    "interval": 4
+  },
+  "I Hviken retning": {
+    "next_review": "2025-09-13T23:39:19.528600",
+    "interval": 4
+  },
+  "Avviksh\u00e5ndtering": {
+    "next_review": "2025-09-25T23:38:48.845735",
+    "interval": 16
+  },
+  "Som kan utnyttes ut fra tankem": {
+    "next_review": "2025-09-10T23:34:02.030435",
+    "interval": 1
+  },
+  "Mange reklamasjoner": {
+    "next_review": "2025-09-10T20:31:17.373290",
+    "interval": 2
+  },
+  "Instilling av driftparametere": {
+    "next_review": "2025-09-10T22:37:46.858282",
+    "interval": 1
+  },
+  "Forst\u00e5else for orden": {
+    "next_review": "2025-09-10T22:38:32.880491",
+    "interval": 1
+  },
+  "Gjeldende retningslinjer": {
+    "next_review": "2025-09-10T23:37:17.623584",
+    "interval": 1
+  },
+  "Resirkulering og gjenbruk": {
+    "next_review": "2025-09-11T23:37:34.843256",
+    "interval": 2
+  },
+  "Hva er kapasiteten": {
+    "next_review": "2025-09-11T23:38:12.010521",
+    "interval": 2
+  },
+  "produksjonsinnsatsfaktorer": {
+    "next_review": "2025-09-11T23:34:34.305409",
+    "interval": 2
+  },
+  "Anlegg for produkth\u00e5ndtering": {
+    "next_review": "2025-09-10T20:31:01.784485",
+    "interval": 2
+  },
+  "Ut fra hensikten": {
+    "next_review": "2025-09-11T23:35:36.264040",
+    "interval": 2
+  },
+  "Klargj\u00f8re materialer": {
+    "next_review": "2025-09-10T23:38:35.040268",
+    "interval": 1
+  },
+  "gjennomf\u00f8ringen av": {
+    "next_review": "2025-09-13T23:39:34.938668",
+    "interval": 4
+  },
+  "Oppstart og nedstenging": {
+    "next_review": "2025-09-11T22:19:31.511149",
+    "interval": 2
+  },
+  "Betjening av styresystemer": {
+    "next_review": "2025-09-10T23:34:57.315285",
+    "interval": 1
+  },
+  "Kvalitetsstyringssystem": {
+    "next_review": "2025-09-10T22:38:09.870306",
+    "interval": 1
+  },
+  "trekker til seg": {
+    "next_review": "2025-09-25T22:37:00.840350",
+    "interval": 16
+  },
+  "ettersp\u00f8rselen blir borte": {
+    "next_review": "2025-09-10T23:36:54.612777",
+    "interval": 1
+  },
+  "markedet forandrer seg": {
+    "next_review": "2025-09-10T23:37:57.852320",
+    "interval": 1
+  },
+  "Ressursutnyttelse": {
+    "next_review": "2025-09-13T23:39:04.713362",
+    "interval": 4
+  },
+  "utstyret": {
+    "next_review": "2025-09-27T05:24:26.559395",
+    "interval": 2
+  },
+  "Jakter": {
+    "next_review": "2025-10-03T05:24:40.962148",
+    "interval": 8
+  },
+  "Forurensning": {
+    "next_review": "2025-09-11T00:15:33.330986",
+    "interval": 1
+  },
+  "inntjening": {
+    "next_review": "2025-09-11T00:30:19.144283",
+    "interval": 1
+  },
+  "vedlikehold": {
+    "next_review": "2025-09-11T17:21:33.489728",
+    "interval": 1
+  },
+  "ettersp\u00f8r": {
+    "next_review": "2025-09-11T17:21:43.864994",
+    "interval": 1
+  },
+  "Kjente begrep": {
+    "next_review": "2025-09-11T17:21:57.059094",
+    "interval": 1
+  }
+}

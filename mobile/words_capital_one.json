@@ -1,0 +1,423 @@
+{
+  "easy": [
+    {
+      "word": "føre",
+      "translation": "lead",
+      "audio": "audio/føre.mp3"
+    },
+    {
+      "word": "egnet",
+      "translation": "suitable",
+      "audio": "audio/egnet.mp3"
+    },
+    {
+      "word": "tilgang",
+      "translation": "access",
+      "audio": "audio/tilgang.mp3"
+    },
+    {
+      "word": "Måter",
+      "translation": "Ways",
+      "audio": "audio/Måter.mp3"
+    },
+    {
+      "word": "regne",
+      "translation": "calculate",
+      "audio": "audio/regne.mp3"
+    },
+    {
+      "word": "utstyret",
+      "translation": "equipment",
+      "audio": "audio/utstyret.mp3"
+    },
+    {
+      "word": "Ulik",
+      "translation": "Different",
+      "audio": "audio/Ulik.mp3"
+    },
+    {
+      "word": "Råvarene",
+      "translation": "Raw materials",
+      "audio": "audio/Råvarene.mp3"
+    },
+    {
+      "word": "lokalene",
+      "translation": "premises",
+      "audio": "audio/lokalene.mp3"
+    },
+    {
+      "word": "rådighet",
+      "translation": "availability",
+      "audio": "audio/rådighet.mp3"
+    },
+    {
+      "word": "dermed",
+      "translation": "thereby",
+      "audio": "audio/dermed.mp3"
+    },
+    {
+      "word": "Romme",
+      "translation": "Room",
+      "audio": "audio/Romme.mp3"
+    },
+    {
+      "word": "utslipp",
+      "translation": "emissions",
+      "audio": "audio/utslipp.mp3"
+    },
+    {
+      "word": "Færre",
+      "translation": "Fewer",
+      "audio": "audio/Færre.mp3"
+    },
+    {
+      "word": "Vurdere",
+      "translation": "Assess",
+      "audio": "audio/Vurdere.mp3"
+    },
+    {
+      "word": "Jakter",
+      "translation": "Hunting",
+      "audio": "audio/Jakter.mp3"
+    },
+    {
+      "word": "ledelse",
+      "translation": "management",
+      "audio": "audio/ledelse.mp3"
+    },
+    {
+      "word": "dessuten",
+      "translation": "moreover",
+      "audio": "audio/dessuten.mp3"
+    }
+  ],
+  "medium": [
+    {
+      "word": "Bærekraftig",
+      "translation": "Sustainable",
+      "audio": "audio/Bærekraftig.mp3"
+    },
+    {
+      "word": "Kvalitetstester",
+      "translation": "Quality tests",
+      "audio": "audio/Kvalitetstester.mp3"
+    },
+    {
+      "word": "Verdikjeden",
+      "translation": "Value chain",
+      "audio": "audio/Verdikjeden.mp3"
+    },
+    {
+      "word": "forurensing",
+      "translation": "pollution",
+      "audio": "audio/forurensing.mp3"
+    },
+    {
+      "word": "Færre enheter",
+      "translation": "Fewer units",
+      "audio": "audio/Færre enheter.mp3"
+    },
+    {
+      "word": "omstillingen",
+      "translation": "restructuring",
+      "audio": "audio/omstillingen.mp3"
+    },
+    {
+      "word": "Ryddighet",
+      "translation": "Tidiness",
+      "audio": "audio/Ryddighet.mp3"
+    },
+    {
+      "word": "markedsføring",
+      "translation": "marketing",
+      "audio": "audio/markedsføring.mp3"
+    },
+    {
+      "word": "Forurensning",
+      "translation": "Pollution",
+      "audio": "audio/Forurensning.mp3"
+    },
+    {
+      "word": "Tilhørende",
+      "translation": "Belonging",
+      "audio": "audio/Tilhørende.mp3"
+    },
+    {
+      "word": "Innsatsfaktorer",
+      "translation": "Input factors",
+      "audio": "audio/Innsatsfaktorer.mp3"
+    },
+    {
+      "word": "vedlikehold",
+      "translation": "maintenance",
+      "audio": "audio/vedlikehold.mp3"
+    },
+    {
+      "word": "underveis",
+      "translation": "underway",
+      "audio": "audio/underveis.mp3"
+    },
+    {
+      "word": "samfunnet",
+      "translation": "society",
+      "audio": "audio/samfunnet.mp3"
+    },
+    {
+      "word": "Kjente begrep",
+      "translation": "Known concepts",
+      "audio": "audio/Kjente begrep.mp3"
+    },
+    {
+      "word": "Gjennomføre",
+      "translation": "Implement",
+      "audio": "audio/Gjennomføre.mp3"
+    },
+    {
+      "word": "Kvalitetskrav",
+      "translation": "Quality requirements",
+      "audio": "audio/Kvalitetskrav.mp3"
+    },
+    {
+      "word": "rengjøring",
+      "translation": "cleaning",
+      "audio": "audio/rengjøring.mp3"
+    },
+    {
+      "word": "ukentlige",
+      "translation": "weekly",
+      "audio": "audio/ukentlige.mp3"
+    },
+    {
+      "word": "Kreve endring",
+      "translation": "Require change",
+      "audio": "audio/Kreve endring.mp3"
+    },
+    {
+      "word": "Lønnsomhet",
+      "translation": "Profitability",
+      "audio": "audio/Lønnsomhet.mp3"
+    },
+    {
+      "word": "I forbindelse",
+      "translation": "In connection",
+      "audio": "audio/I forbindelse.mp3"
+    },
+    {
+      "word": "Fortjeneste",
+      "translation": "Profit",
+      "audio": "audio/Fortjeneste.mp3"
+    },
+    {
+      "word": "grunnleggende",
+      "translation": "fundamental",
+      "audio": "audio/grunnleggende.mp3"
+    },
+    {
+      "word": "overordnet",
+      "translation": "overall",
+      "audio": "audio/overordnet.mp3"
+    },
+    {
+      "word": "tilpasset",
+      "translation": "adapted",
+      "audio": "audio/tilpasset.mp3"
+    },
+    {
+      "word": "støttefuksjoner",
+      "translation": "support functions",
+      "audio": "audio/støttefuksjoner.mp3"
+    },
+    {
+      "word": "Kort sagt",
+      "translation": "In short",
+      "audio": "audio/Kort sagt.mp3"
+    },
+    {
+      "word": "etterspør",
+      "translation": "demand",
+      "audio": "audio/etterspør.mp3"
+    },
+    {
+      "word": "Planlegge",
+      "translation": "Plan",
+      "audio": "audio/Planlegge.mp3"
+    },
+    {
+      "word": "Risikovurdere",
+      "translation": "Risk assessment",
+      "audio": "audio/Risikovurdere.mp3"
+    },
+    {
+      "word": "Optimalisering",
+      "translation": "Optimization",
+      "audio": "audio/Optimalisering.mp3"
+    },
+    {
+      "word": "rimeligere",
+      "translation": "cheaper",
+      "audio": "audio/rimeligere.mp3"
+    },
+    {
+      "word": "inntjening",
+      "translation": "earnings",
+      "audio": "audio/inntjening.mp3"
+    },
+    {
+      "word": "Kjerneelementet",
+      "translation": "Core element",
+      "audio": "audio/Kjerneelementet.mp3"
+    },
+    {
+      "word": "En unngår",
+      "translation": "One avoids",
+      "audio": "audio/En unngår.mp3"
+    },
+    {
+      "word": "Utarbeide",
+      "translation": "Develop",
+      "audio": "audio/Utarbeide.mp3"
+    }
+  ],
+  "hard": [
+    {
+      "word": "Nedstengningsprosedyrer",
+      "translation": "Shutdown procedures",
+      "audio": "audio/Nedstengningsprosedyrer.mp3"
+    },
+    {
+      "word": "Klargjøre materialer",
+      "translation": "Prepare materials",
+      "audio": "audio/Klargjøre materialer.mp3"
+    },
+    {
+      "word": "Hva er kapasiteten",
+      "translation": "What is the capacity",
+      "audio": "audio/Hva er kapasiteten.mp3"
+    },
+    {
+      "word": "Avvikshåndtering",
+      "translation": "Deviation handling",
+      "audio": "audio/Avvikshåndtering.mp3"
+    },
+    {
+      "word": "å tåle problemer underveis",
+      "translation": "to tolerate problems along the way",
+      "audio": "audio/å tåle problemer underveis.mp3"
+    },
+    {
+      "word": "Mange reklamasjoner",
+      "translation": "Many complaints",
+      "audio": "audio/Mange reklamasjoner.mp3"
+    },
+    {
+      "word": "gjennomføringen av",
+      "translation": "the implementation of",
+      "audio": "audio/gjennomføringen av.mp3"
+    },
+    {
+      "word": "produksjonsinnsatsfaktorer",
+      "translation": "production input factors",
+      "audio": "audio/produksjonsinnsatsfaktorer.mp3"
+    },
+    {
+      "word": "Betjening av styresystemer",
+      "translation": "Operation of control systems",
+      "audio": "audio/Betjening av styresystemer.mp3"
+    },
+    {
+      "word": "Videre handler om",
+      "translation": "Further deals with",
+      "audio": "audio/Videre handler om.mp3"
+    },
+    {
+      "word": "Resirkulering og gjenbruk",
+      "translation": "Recycling and reuse",
+      "audio": "audio/Resirkulering og gjenbruk.mp3"
+    },
+    {
+      "word": "Skarpe konkurrent",
+      "translation": "Sharp competitor",
+      "audio": "audio/Skarpe konkurrent.mp3"
+    },
+    {
+      "word": "Ressursutnyttelse",
+      "translation": "Resource utilization",
+      "audio": "audio/Ressursutnyttelse.mp3"
+    },
+    {
+      "word": "Kvalitetsstyringssystem",
+      "translation": "Quality management system",
+      "audio": "audio/Kvalitetsstyringssystem.mp3"
+    },
+    {
+      "word": "I Hviken retning",
+      "translation": "In which direction",
+      "audio": "audio/I Hviken retning.mp3"
+    },
+    {
+      "word": "Har nytte av hverande",
+      "translation": "Has use of each other",
+      "audio": "audio/Har nytte av hverande.mp3"
+    },
+    {
+      "word": "skape flaskehalse",
+      "translation": "create bottlenecks",
+      "audio": "audio/skape flaskehalse.mp3"
+    },
+    {
+      "word": "Som kan utnyttes ut fra tankem",
+      "translation": "Which can be utilized based on thinking",
+      "audio": "audio/Som kan utnyttes ut fra tankem.mp3"
+    },
+    {
+      "word": "markedet forandrer seg",
+      "translation": "the market changes",
+      "audio": "audio/markedet forandrer seg.mp3"
+    },
+    {
+      "word": "Oppstart og nedstenging",
+      "translation": "Startup and shutdown",
+      "audio": "audio/Oppstart og nedstenging.mp3"
+    },
+    {
+      "word": "etterspørselen blir borte",
+      "translation": "the demand disappears",
+      "audio": "audio/etterspørselen blir borte.mp3"
+    },
+    {
+      "word": "Anlegg for produkthåndtering",
+      "translation": "Facility for product handling",
+      "audio": "audio/Anlegg for produkthåndtering.mp3"
+    },
+    {
+      "word": "Instilling av driftparametere",
+      "translation": "Setting of operating parameters",
+      "audio": "audio/Instilling av driftparametere.mp3"
+    },
+    {
+      "word": "Forståelse for orden",
+      "translation": "Understanding of order",
+      "audio": "audio/Forståelse for orden.mp3"
+    },
+    {
+      "word": "trekker til seg",
+      "translation": "attracts",
+      "audio": "audio/trekker til seg.mp3"
+    },
+    {
+      "word": "Gjeldende retningslinjer",
+      "translation": "Current guidelines",
+      "audio": "audio/Gjeldende retningslinjer.mp3"
+    },
+    {
+      "word": "Redusere behovet",
+      "translation": "Reduce the need",
+      "audio": "audio/Redusere behovet.mp3"
+    },
+    {
+      "word": "Ut fra hensikten",
+      "translation": "Based on the purpose",
+      "audio": "audio/Ut fra hensikten.mp3"
+    }
+  ]
+}
