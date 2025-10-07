@@ -23,7 +23,10 @@
         <header class="header">
             <div class="header-top">
                 <div class="streak">🔥 <span id="streak-count">0</span> dager</div>
-                <button class="settings-btn" onclick="openSettings()">⚙</button>
+                <div class="header-actions">
+                    <button class="listening-btn" onclick="openListeningMode()" title="Lyttemodus">🎧</button>
+                    <button class="settings-btn" onclick="openSettings()">⚙</button>
+                </div>
             </div>
             <div class="logo-section">
                 <div class="logo">🎯</div>
@@ -145,6 +148,73 @@
         </div>
     </div>
 
-    <script src="app.js?v=25"></script>
+    <!-- Listening Mode Modal -->
+    <div id="listening-modal" class="modal">
+        <div class="modal-content listening-modal-content">
+            <div class="modal-header">
+                <h2>🎧 Lyttemodus</h2>
+                <button class="close-btn" onclick="closeListeningMode()" title="Tilbake til spillet">← Tilbake</button>
+            </div>
+            <div class="modal-body">
+                <!-- Chapter Selection for Listening -->
+                <div class="setting-group">
+                    <label>Velg Kapitel:</label>
+                    <select id="listening-chapter-select" class="select-input">
+                        <option value="capital_one">Kapitel 1 - Grunnleggende</option>
+                        <option value="capital_two">Kapitel 2 - Middels</option>
+                        <option value="capital_three">Kapitel 3 - Avansert</option>
+                    </select>
+                </div>
+
+                <!-- Word Display Area -->
+                <div class="listening-display">
+                    <div class="word-card">
+                        <div class="word-number" id="listening-word-number">0 / 0</div>
+                        <div class="norwegian-word" id="listening-norwegian">Velg et kapittel og trykk Start</div>
+                        <div class="english-translation" id="listening-english">Select a chapter and press Start</div>
+                    </div>
+                </div>
+
+                <!-- Playback Controls -->
+                <div class="listening-controls">
+                    <button class="control-btn" onclick="listeningPrevious()" id="listening-prev-btn" disabled>
+                        ⏮ Forrige
+                    </button>
+                    <button class="control-btn control-btn-main" onclick="listeningTogglePlay()" id="listening-play-btn">
+                        ▶ Start
+                    </button>
+                    <button class="control-btn" onclick="listeningNext()" id="listening-next-btn" disabled>
+                        Neste ⏭
+                    </button>
+                </div>
+
+                <!-- Music Controls -->
+                <div class="music-controls">
+                    <button class="music-toggle-btn" onclick="toggleBackgroundMusic()" id="music-toggle-btn" title="Bakgrunnsmusikk">
+                        🎵 Musikk: Av
+                    </button>
+                </div>
+
+                <!-- Progress Info -->
+                <div class="listening-progress">
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" id="listening-progress-bar"></div>
+                    </div>
+                    <div class="listening-info">
+                        <span id="listening-status">Klar til å starte</span>
+                    </div>
+                </div>
+
+                <!-- Back to Game Button -->
+                <div class="back-to-game-section">
+                    <button class="btn btn-secondary" onclick="closeListeningMode()">
+                        🎯 Tilbake til Spillet
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js?v=33"></script>
 </body>
 </html>

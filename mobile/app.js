@@ -948,9 +948,13 @@ function updateChapterSelector() {
 
 // Close modal when clicking outside
 window.onclick = function(event) {
-    const modal = document.getElementById('settings-modal');
-    if (event.target === modal) {
+    const settingsModal = document.getElementById('settings-modal');
+    const listeningModal = document.getElementById('listening-modal');
+    if (event.target === settingsModal) {
         closeSettings();
+    }
+    if (event.target === listeningModal) {
+        closeListeningMode();
     }
 }
 
@@ -959,4 +963,499 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js').catch(() => {
         console.log('Service worker registration failed');
     });
+}
+
+// ===========================
+// LISTENING MODE FUNCTIONALITY
+// ===========================
+
+// Listening Mode State
+let listeningState = {
+    isPlaying: false,
+    currentIndex: 0,
+    words: [],
+    audio: null,
+    playbackInterval: null,
+    selectedChapter: 'capital_one',
+    backgroundMusic: null,
+    musicEnabled: false,
+    normalMusicVolume: 0.25, // 25% volume
+    duckedMusicVolume: 0.08  // 8% volume when word is playing
+};
+
+// Open Listening Mode Modal
+function openListeningMode() {
+    console.log('🎧 Opening Listening Mode');
+    const modal = document.getElementById('listening-modal');
+    modal.style.display = 'flex';
+    
+    // Reset state
+    stopListening();
+    listeningState.currentIndex = 0;
+    listeningState.selectedChapter = gameState.settings.currentChapter;
+    
+    // Set chapter selector to current chapter
+    const chapterSelect = document.getElementById('listening-chapter-select');
+    if (chapterSelect) {
+        chapterSelect.value = listeningState.selectedChapter;
+    }
+    
+    updateListeningDisplay();
+}
+
+// Close Listening Mode Modal
+function closeListeningMode() {
+    console.log('🎧 Closing Listening Mode');
+    const modal = document.getElementById('listening-modal');
+    modal.style.display = 'none';
+    
+    // Stop playback
+    stopListening();
+    
+    // Stop and reset background music
+    if (listeningState.musicEnabled) {
+        stopBackgroundMusic();
+        listeningState.musicEnabled = false;
+        const musicBtn = document.getElementById('music-toggle-btn');
+        if (musicBtn) {
+            musicBtn.textContent = '🎵 Musikk: Av';
+            musicBtn.classList.remove('active');
+        }
+    }
+}
+
+// Load words for listening mode
+async function loadListeningWords(chapterId) {
+    console.log('🎧 Loading listening words for chapter:', chapterId);
+    
+    try {
+        const response = await fetch(`words_${chapterId}.json`);
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        
+        const data = await response.json();
+        
+        // Combine all difficulty levels
+        const allWords = [
+            ...data.easy,
+            ...data.medium,
+            ...data.hard
+        ];
+        
+        console.log('✅ Loaded', allWords.length, 'words for listening mode');
+        return allWords;
+    } catch (error) {
+        console.error('❌ Error loading listening words:', error);
+        return [];
+    }
+}
+
+// Start/Toggle listening playback
+async function listeningTogglePlay() {
+    const playBtn = document.getElementById('listening-play-btn');
+    const chapterSelect = document.getElementById('listening-chapter-select');
+    
+    if (listeningState.isPlaying) {
+        // Pause
+        pauseListening();
+    } else {
+        // Start or Resume
+        if (listeningState.words.length === 0) {
+            // First time - load words
+            listeningState.selectedChapter = chapterSelect.value;
+            listeningState.words = await loadListeningWords(listeningState.selectedChapter);
+            
+            if (listeningState.words.length === 0) {
+                alert('Ingen ord funnet for dette kapitlet!');
+                return;
+            }
+            
+            listeningState.currentIndex = 0;
+        }
+        
+        startListening();
+    }
+}
+
+// Start listening
+function startListening() {
+    console.log('▶ Starting listening mode');
+    listeningState.isPlaying = true;
+    
+    const playBtn = document.getElementById('listening-play-btn');
+    playBtn.textContent = '⏸ Pause';
+    playBtn.classList.add('playing');
+    
+    // Enable navigation buttons
+    document.getElementById('listening-prev-btn').disabled = false;
+    document.getElementById('listening-next-btn').disabled = false;
+    
+    // Play current word
+    playCurrentWord();
+}
+
+// Pause listening
+function pauseListening() {
+    console.log('⏸ Pausing listening mode');
+    listeningState.isPlaying = false;
+    
+    const playBtn = document.getElementById('listening-play-btn');
+    playBtn.textContent = '▶ Fortsett';
+    playBtn.classList.remove('playing');
+    
+    // Stop current audio
+    if (listeningState.audio) {
+        listeningState.audio.pause();
+        listeningState.audio = null;
+    }
+    
+    // Clear interval
+    if (listeningState.playbackInterval) {
+        clearTimeout(listeningState.playbackInterval);
+        listeningState.playbackInterval = null;
+    }
+    
+    updateListeningStatus('Pauset');
+}
+
+// Stop listening
+function stopListening() {
+    console.log('⏹ Stopping listening mode');
+    listeningState.isPlaying = false;
+    listeningState.currentIndex = 0;
+    
+    const playBtn = document.getElementById('listening-play-btn');
+    playBtn.textContent = '▶ Start';
+    playBtn.classList.remove('playing');
+    
+    // Stop audio
+    if (listeningState.audio) {
+        listeningState.audio.pause();
+        listeningState.audio = null;
+    }
+    
+    // Clear interval
+    if (listeningState.playbackInterval) {
+        clearTimeout(listeningState.playbackInterval);
+        listeningState.playbackInterval = null;
+    }
+    
+    // Disable navigation buttons
+    document.getElementById('listening-prev-btn').disabled = true;
+    document.getElementById('listening-next-btn').disabled = true;
+    
+    updateListeningDisplay();
+}
+
+// Play current word
+function playCurrentWord() {
+    if (!listeningState.isPlaying || listeningState.words.length === 0) {
+        return;
+    }
+    
+    const currentWord = listeningState.words[listeningState.currentIndex];
+    console.log('🔊 Playing word:', currentWord.word);
+    
+    // Update display
+    updateListeningDisplay();
+    updateListeningStatus(`Spiller av: ${currentWord.word}`);
+    
+    // Duck background music before playing word
+    duckBackgroundMusic();
+    
+    // Stop any existing audio
+    if (listeningState.audio) {
+        listeningState.audio.pause();
+        listeningState.audio = null;
+    }
+    
+    // Create audio element
+    const audioPath = `audio/${encodeURIComponent(currentWord.word)}.mp3`;
+    listeningState.audio = new Audio(audioPath);
+    
+    // Play audio
+    listeningState.audio.play().then(() => {
+        console.log('✅ Playing audio:', audioPath);
+    }).catch(error => {
+        console.error('❌ Audio playback error:', error);
+        updateListeningStatus(`Feil ved avspilling: ${currentWord.word}`);
+        // Restore music even if word fails to play
+        restoreBackgroundMusic();
+    });
+    
+    // When audio ends, restore music and wait 10 seconds then play next
+    listeningState.audio.addEventListener('ended', () => {
+        console.log('🎵 Audio ended, restoring music volume...');
+        
+        // Restore background music volume
+        restoreBackgroundMusic();
+        
+        updateListeningStatus('Venter 10 sekunder...');
+        
+        listeningState.playbackInterval = setTimeout(() => {
+            listeningNext();
+        }, 10000); // 10 second interval
+    });
+}
+
+// Previous word
+function listeningPrevious() {
+    console.log('⏮ Previous word');
+    
+    // Clear any pending interval
+    if (listeningState.playbackInterval) {
+        clearTimeout(listeningState.playbackInterval);
+        listeningState.playbackInterval = null;
+    }
+    
+    // Stop current audio
+    if (listeningState.audio) {
+        listeningState.audio.pause();
+        listeningState.audio = null;
+    }
+    
+    // Go to previous word
+    if (listeningState.currentIndex > 0) {
+        listeningState.currentIndex--;
+    } else {
+        // Wrap to last word
+        listeningState.currentIndex = listeningState.words.length - 1;
+    }
+    
+    // Play if we're in playing mode
+    if (listeningState.isPlaying) {
+        playCurrentWord();
+    } else {
+        updateListeningDisplay();
+    }
+}
+
+// Next word
+function listeningNext() {
+    console.log('⏭ Next word');
+    
+    // Clear any pending interval
+    if (listeningState.playbackInterval) {
+        clearTimeout(listeningState.playbackInterval);
+        listeningState.playbackInterval = null;
+    }
+    
+    // Stop current audio
+    if (listeningState.audio) {
+        listeningState.audio.pause();
+        listeningState.audio = null;
+    }
+    
+    // Go to next word
+    if (listeningState.currentIndex < listeningState.words.length - 1) {
+        listeningState.currentIndex++;
+    } else {
+        // End of playlist
+        console.log('🎉 End of chapter reached');
+        updateListeningStatus('Fullført! Trykk Start for å spille på nytt.');
+        stopListening();
+        return;
+    }
+    
+    // Play if we're in playing mode
+    if (listeningState.isPlaying) {
+        playCurrentWord();
+    } else {
+        updateListeningDisplay();
+    }
+}
+
+// Update listening display
+function updateListeningDisplay() {
+    const wordNumberEl = document.getElementById('listening-word-number');
+    const norwegianEl = document.getElementById('listening-norwegian');
+    const englishEl = document.getElementById('listening-english');
+    const progressBarEl = document.getElementById('listening-progress-bar');
+    
+    if (listeningState.words.length === 0) {
+        wordNumberEl.textContent = '0 / 0';
+        norwegianEl.textContent = 'Velg et kapittel og trykk Start';
+        englishEl.textContent = 'Select a chapter and press Start';
+        progressBarEl.style.width = '0%';
+        return;
+    }
+    
+    const currentWord = listeningState.words[listeningState.currentIndex];
+    const totalWords = listeningState.words.length;
+    const currentNum = listeningState.currentIndex + 1;
+    
+    wordNumberEl.textContent = `${currentNum} / ${totalWords}`;
+    norwegianEl.textContent = currentWord.word;
+    englishEl.textContent = currentWord.translation || 'No translation available';
+    
+    // Update progress bar
+    const progress = (currentNum / totalWords) * 100;
+    progressBarEl.style.width = `${progress}%`;
+}
+
+// Update listening status
+function updateListeningStatus(status) {
+    const statusEl = document.getElementById('listening-status');
+    if (statusEl) {
+        statusEl.textContent = status;
+    }
+}
+
+// ===========================
+// BACKGROUND MUSIC FUNCTIONALITY
+// ===========================
+
+// Toggle background music
+function toggleBackgroundMusic() {
+    const musicBtn = document.getElementById('music-toggle-btn');
+    
+    if (listeningState.musicEnabled) {
+        // Turn off music
+        stopBackgroundMusic();
+        listeningState.musicEnabled = false;
+        musicBtn.textContent = '🎵 Musikk: Av';
+        musicBtn.classList.remove('active');
+        console.log('🔇 Background music disabled');
+    } else {
+        // Turn on music
+        startBackgroundMusic();
+        listeningState.musicEnabled = true;
+        musicBtn.textContent = '🎵 Musikk: På';
+        musicBtn.classList.add('active');
+        console.log('🔊 Background music enabled');
+    }
+}
+
+// Start background music
+function startBackgroundMusic() {
+    console.log('🎵 Starting background music...');
+    
+    // If music already exists, just resume
+    if (listeningState.backgroundMusic) {
+        listeningState.backgroundMusic.volume = listeningState.normalMusicVolume;
+        listeningState.backgroundMusic.play().catch(error => {
+            console.error('❌ Error playing background music:', error);
+        });
+        return;
+    }
+    
+    // Local music files from backgroundMusic folder
+    const musicFiles = [
+        'backgroundMusic/background-music-413276.mp3',
+        'backgroundMusic/inspiring-inspirational-background-music-412596.mp3',
+        'backgroundMusic/soft-background-music-368633.mp3',
+        'backgroundMusic/soft-background-music-409193.mp3'
+    ];
+    
+    // Shuffle the playlist for variety
+    const shuffledMusic = musicFiles.sort(() => Math.random() - 0.5);
+    let currentTrackIndex = 0;
+    
+    function playTrack(trackIndex) {
+        const musicUrl = shuffledMusic[trackIndex];
+        console.log(`🎵 Playing track ${trackIndex + 1}/${shuffledMusic.length}:`, musicUrl);
+        
+        listeningState.backgroundMusic = new Audio(musicUrl);
+        listeningState.backgroundMusic.volume = listeningState.normalMusicVolume;
+        
+        // When track ends, play next track
+        listeningState.backgroundMusic.addEventListener('ended', () => {
+            console.log('🎵 Track ended, playing next...');
+            currentTrackIndex = (currentTrackIndex + 1) % shuffledMusic.length;
+            
+            // If we've completed the playlist, shuffle again
+            if (currentTrackIndex === 0) {
+                console.log('🔀 Playlist completed, shuffling...');
+                shuffledMusic.sort(() => Math.random() - 0.5);
+            }
+            
+            playTrack(currentTrackIndex);
+        });
+        
+        // Start playing
+        listeningState.backgroundMusic.play().then(() => {
+            console.log('✅ Background music started successfully!');
+        }).catch(error => {
+            console.error('❌ Failed to play music:', error);
+            // Try next track
+            currentTrackIndex = (currentTrackIndex + 1) % shuffledMusic.length;
+            if (currentTrackIndex < shuffledMusic.length) {
+                playTrack(currentTrackIndex);
+            } else {
+                console.error('❌ All music tracks failed to load');
+            }
+        });
+    }
+    
+    // Start playing the first track
+    playTrack(currentTrackIndex);
+}
+
+// Stop background music
+function stopBackgroundMusic() {
+    console.log('🔇 Stopping background music...');
+    
+    if (listeningState.backgroundMusic) {
+        listeningState.backgroundMusic.pause();
+        listeningState.backgroundMusic.currentTime = 0;
+    }
+}
+
+// Duck background music (lower volume during word playback)
+function duckBackgroundMusic() {
+    if (listeningState.backgroundMusic && listeningState.musicEnabled) {
+        console.log('🔉 Ducking background music to', listeningState.duckedMusicVolume);
+        
+        // Smooth fade to lower volume
+        const fadeSteps = 10;
+        const fadeInterval = 50; // ms
+        const currentVolume = listeningState.backgroundMusic.volume;
+        const volumeStep = (currentVolume - listeningState.duckedMusicVolume) / fadeSteps;
+        
+        let step = 0;
+        const fadeDown = setInterval(() => {
+            if (step >= fadeSteps || !listeningState.backgroundMusic) {
+                clearInterval(fadeDown);
+                if (listeningState.backgroundMusic) {
+                    listeningState.backgroundMusic.volume = listeningState.duckedMusicVolume;
+                }
+                return;
+            }
+            
+            if (listeningState.backgroundMusic) {
+                listeningState.backgroundMusic.volume -= volumeStep;
+            }
+            step++;
+        }, fadeInterval);
+    }
+}
+
+// Restore background music volume (after word finishes)
+function restoreBackgroundMusic() {
+    if (listeningState.backgroundMusic && listeningState.musicEnabled) {
+        console.log('🔊 Restoring background music to', listeningState.normalMusicVolume);
+        
+        // Smooth fade to normal volume
+        const fadeSteps = 10;
+        const fadeInterval = 50; // ms
+        const currentVolume = listeningState.backgroundMusic.volume;
+        const volumeStep = (listeningState.normalMusicVolume - currentVolume) / fadeSteps;
+        
+        let step = 0;
+        const fadeUp = setInterval(() => {
+            if (step >= fadeSteps || !listeningState.backgroundMusic) {
+                clearInterval(fadeUp);
+                if (listeningState.backgroundMusic) {
+                    listeningState.backgroundMusic.volume = listeningState.normalMusicVolume;
+                }
+                return;
+            }
+            
+            if (listeningState.backgroundMusic) {
+                listeningState.backgroundMusic.volume += volumeStep;
+            }
+            step++;
+        }, fadeInterval);
+    }
 }
