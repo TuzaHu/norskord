@@ -196,8 +196,19 @@ class ChapterAudioGenerator:
             print(f"❌ Error reading {chapter_file}: {e}")
             return False
         
-        # Process words
+        # Load existing words metadata if updating
         words_metadata = {}
+        words_metadata_file = chapter_path / "data" / "words_metadata.json"
+        if words_metadata_file.exists():
+            try:
+                with open(words_metadata_file, 'r', encoding='utf-8') as f:
+                    existing_data = json.load(f)
+                    words_metadata = existing_data.get('words', {})
+                    print(f"📖 Loaded {len(words_metadata)} existing words from chapter")
+            except Exception as e:
+                print(f"⚠️ Could not load existing metadata: {e}")
+        
+        # Process words
         new_words = 0
         skipped_words = 0
         

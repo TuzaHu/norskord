@@ -980,7 +980,8 @@ let listeningState = {
     backgroundMusic: null,
     musicEnabled: false,
     normalMusicVolume: 0.25, // 25% volume
-    duckedMusicVolume: 0.08  // 8% volume when word is playing
+    duckedMusicVolume: 0.08,  // 8% volume when word is playing
+    wakeLock: null  // Wake Lock to keep screen active
 };
 
 // Open Listening Mode Modal
@@ -1009,7 +1010,7 @@ function closeListeningMode() {
     const modal = document.getElementById('listening-modal');
     modal.style.display = 'none';
     
-    // Stop playback
+    // Stop playback (this also releases wake lock)
     stopListening();
     
     // Stop and reset background music
@@ -1022,6 +1023,9 @@ function closeListeningMode() {
             musicBtn.classList.remove('active');
         }
     }
+    
+    // Extra safety: ensure wake lock is released
+    releaseWakeLock();
 }
 
 // Load words for listening mode
@@ -1079,7 +1083,7 @@ async function listeningTogglePlay() {
 }
 
 // Start listening
-function startListening() {
+async function startListening() {
     console.log('▶ Starting listening mode');
     listeningState.isPlaying = true;
     
@@ -1090,6 +1094,9 @@ function startListening() {
     // Enable navigation buttons
     document.getElementById('listening-prev-btn').disabled = false;
     document.getElementById('listening-next-btn').disabled = false;
+    
+    // Request wake lock to keep screen active
+    await requestWakeLock();
     
     // Play current word
     playCurrentWord();
@@ -1115,6 +1122,9 @@ function pauseListening() {
         clearTimeout(listeningState.playbackInterval);
         listeningState.playbackInterval = null;
     }
+    
+    // Release wake lock when paused
+    releaseWakeLock();
     
     updateListeningStatus('Pauset');
 }
@@ -1144,6 +1154,9 @@ function stopListening() {
     // Disable navigation buttons
     document.getElementById('listening-prev-btn').disabled = true;
     document.getElementById('listening-next-btn').disabled = true;
+    
+    // Release wake lock when stopped
+    releaseWakeLock();
     
     updateListeningDisplay();
 }
@@ -1459,3 +1472,58 @@ function restoreBackgroundMusic() {
         }, fadeInterval);
     }
 }
+
+// ===========================
+// WAKE LOCK API - Keep Screen Active
+// ===========================
+
+// Request wake lock to prevent screen from sleeping
+async function requestWakeLock() {
+    console.log('🔒 Requesting wake lock...');
+    
+    // Check if Wake Lock API is supported
+    if (!('wakeLock' in navigator)) {
+        console.log('⚠️ Wake Lock API not supported on this device');
+        console.log('💡 Tip: Keep your screen on manually during listening mode');
+        return;
+    }
+    
+    try {
+        // Request a screen wake lock
+        listeningState.wakeLock = await navigator.wakeLock.request('screen');
+        console.log('✅ Wake lock activated - screen will stay on!');
+        
+        // Listen for wake lock release
+        listeningState.wakeLock.addEventListener('release', () => {
+            console.log('🔓 Wake lock released');
+        });
+        
+    } catch (err) {
+        console.error('❌ Failed to activate wake lock:', err);
+        console.log('💡 Screen may turn off during playback');
+    }
+}
+
+// Release wake lock
+function releaseWakeLock() {
+    if (listeningState.wakeLock !== null) {
+        console.log('🔓 Releasing wake lock...');
+        
+        listeningState.wakeLock.release()
+            .then(() => {
+                listeningState.wakeLock = null;
+                console.log('✅ Wake lock released successfully');
+            })
+            .catch((err) => {
+                console.error('❌ Error releasing wake lock:', err);
+            });
+    }
+}
+
+// Re-request wake lock if page becomes visible again
+document.addEventListener('visibilitychange', async () => {
+    if (listeningState.wakeLock !== null && document.visibilityState === 'visible') {
+        console.log('📱 Page visible again, re-requesting wake lock...');
+        await requestWakeLock();
+    }
+});

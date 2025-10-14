@@ -1,33 +1,1003 @@
 {
   "words": {
-    "oppusset bærbar PC : Refurbished laptop": {
-      "audio_file": "oppusset bærbar PC : Refurbished laptop.mp3",
+    "tillfellet": {
+      "audio_file": "tillfellet.mp3",
       "difficulty": "hard",
       "category": "general",
       "chapter": "2",
       "tags": [],
-      "translation": "refurbished laptop : Refurbished laptop",
-      "last_updated": "2025-10-05T15:32:53.261466",
+      "translation": "case",
+      "last_updated": "2025-10-14T21:00:19.661172",
       "auto_generated": true
     },
-    "Mobiltilbehør : Phone accessories": {
-      "audio_file": "Mobiltilbehør : Phone accessories.mp3",
+    "miljøprofilen": {
+      "audio_file": "miljøprofilen.mp3",
       "difficulty": "hard",
       "category": "general",
       "chapter": "2",
       "tags": [],
-      "translation": "Mobile accessories : Phone accessories",
-      "last_updated": "2025-10-05T15:32:54.200650",
+      "translation": "the environmental profile",
+      "last_updated": "2025-10-14T21:00:21.200009",
       "auto_generated": true
     },
-    "Data tilbehør : Computer accessories": {
-      "audio_file": "Data tilbehør : Computer accessories.mp3",
+    "Abeidet med å hå": {
+      "audio_file": "Abeidet med å hå.mp3",
       "difficulty": "hard",
       "category": "general",
       "chapter": "2",
       "tags": [],
-      "translation": "Computer accessories : Computer accessories",
-      "last_updated": "2025-10-05T15:32:55.740895",
+      "translation": "The work of having",
+      "last_updated": "2025-10-14T21:03:06.678485",
+      "auto_generated": true
+    },
+    "spennende": {
+      "audio_file": "spennende.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "thrilling",
+      "last_updated": "2025-10-14T21:03:08.008439",
+      "auto_generated": true
+    },
+    "bidragene": {
+      "audio_file": "bidragene.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "the contributions",
+      "last_updated": "2025-10-14T21:03:09.748965",
+      "auto_generated": true
+    },
+    "vil ikke holde lenge": {
+      "audio_file": "vil ikke holde lenge.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "won&#39;t last long",
+      "last_updated": "2025-10-14T21:03:10.977351",
+      "auto_generated": true
+    },
+    "henge sammen med dette": {
+      "audio_file": "henge sammen med dette.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "hang out with this",
+      "last_updated": "2025-10-14T21:03:12.826322",
+      "auto_generated": true
+    },
+    "stiller inn": {
+      "audio_file": "stiller inn.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "tunes in",
+      "last_updated": "2025-10-14T21:03:13.846054",
+      "auto_generated": true
+    },
+    "selve grunnlaget": {
+      "audio_file": "selve grunnlaget.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "the very foundation",
+      "last_updated": "2025-10-14T21:03:14.862845",
+      "auto_generated": true
+    },
+    "prosesstyring": {
+      "audio_file": "prosesstyring.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Process Control:",
+      "last_updated": "2025-10-14T21:03:15.994499",
+      "auto_generated": true
+    },
+    "påfølgende": {
+      "audio_file": "påfølgende.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "following",
+      "last_updated": "2025-10-14T21:03:17.123936",
+      "auto_generated": true
+    },
+    "fastsatte": {
+      "audio_file": "fastsatte.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "determined",
+      "last_updated": "2025-10-14T21:03:18.350639",
+      "auto_generated": true
+    },
+    "målinger": {
+      "audio_file": "målinger.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "measurements",
+      "last_updated": "2025-10-14T21:03:19.784680",
+      "auto_generated": true
+    },
+    "korrigere": {
+      "audio_file": "korrigere.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Correcting",
+      "last_updated": "2025-10-14T21:03:21.319900",
+      "auto_generated": true
+    },
+    "avdekke": {
+      "audio_file": "avdekke.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "uncover",
+      "last_updated": "2025-10-14T21:03:22.754231",
+      "auto_generated": true
+    },
+    "årsakene": {
+      "audio_file": "årsakene.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "the reasons",
+      "last_updated": "2025-10-14T21:03:24.187800",
+      "auto_generated": true
+    },
+    "mangel": {
+      "audio_file": "mangel.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "lack",
+      "last_updated": "2025-10-14T21:03:25.826744",
+      "auto_generated": true
+    },
+    "rekvisita": {
+      "audio_file": "rekvisita.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "supplies",
+      "last_updated": "2025-10-14T21:03:27.151861",
+      "auto_generated": true
+    },
+    "nødvendig": {
+      "audio_file": "nødvendig.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "necessary",
+      "last_updated": "2025-10-14T21:03:28.284263",
+      "auto_generated": true
+    },
+    "regnes": {
+      "audio_file": "regnes.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "is considered",
+      "last_updated": "2025-10-14T21:03:29.507844",
+      "auto_generated": true
+    },
+    "rammer": {
+      "audio_file": "rammer.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Frame",
+      "last_updated": "2025-10-14T21:03:31.048392",
+      "auto_generated": true
+    },
+    "konsekvenser": {
+      "audio_file": "konsekvenser.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Affect of Termination ",
+      "last_updated": "2025-10-14T21:03:32.379080",
+      "auto_generated": true
+    },
+    "belaste": {
+      "audio_file": "belaste.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Charge",
+      "last_updated": "2025-10-14T21:03:33.607382",
+      "auto_generated": true
+    },
+    "rykte": {
+      "audio_file": "rykte.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "REPUTATION",
+      "last_updated": "2025-10-14T21:03:35.040870",
+      "auto_generated": true
+    },
+    "begrenset": {
+      "audio_file": "begrenset.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "restricted",
+      "last_updated": "2025-10-14T21:03:36.577011",
+      "auto_generated": true
+    },
+    "påvirker": {
+      "audio_file": "påvirker.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "affects",
+      "last_updated": "2025-10-14T21:03:37.806345",
+      "auto_generated": true
+    },
+    "tidspunktene": {
+      "audio_file": "tidspunktene.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "the times",
+      "last_updated": "2025-10-14T21:03:39.138600",
+      "auto_generated": true
+    },
+    "særlig": {
+      "audio_file": "særlig.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "especially",
+      "last_updated": "2025-10-14T21:03:40.162985",
+      "auto_generated": true
+    },
+    "sårbar": {
+      "audio_file": "sårbar.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "vulnerable",
+      "last_updated": "2025-10-14T21:03:41.287836",
+      "auto_generated": true
+    },
+    "enorme": {
+      "audio_file": "enorme.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "enormous",
+      "last_updated": "2025-10-14T21:03:42.415857",
+      "auto_generated": true
+    },
+    "våken": {
+      "audio_file": "våken.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "awake",
+      "last_updated": "2025-10-14T21:03:43.542442",
+      "auto_generated": true
+    },
+    "instrukser": {
+      "audio_file": "instrukser.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Instructions",
+      "last_updated": "2025-10-14T21:03:44.975416",
+      "auto_generated": true
+    },
+    "trygghet": {
+      "audio_file": "trygghet.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Safety",
+      "last_updated": "2025-10-14T21:03:46.409507",
+      "auto_generated": true
+    },
+    "tørker": {
+      "audio_file": "tørker.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "dryer",
+      "last_updated": "2025-10-14T21:03:47.535409",
+      "auto_generated": true
+    },
+    "løst": {
+      "audio_file": "løst.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "resolved",
+      "last_updated": "2025-10-14T21:03:49.072117",
+      "auto_generated": true
+    },
+    "betydning": {
+      "audio_file": "betydning.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "meaning",
+      "last_updated": "2025-10-14T21:03:50.402143",
+      "auto_generated": true
+    },
+    "sikkerhet": {
+      "audio_file": "sikkerhet.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "safety",
+      "last_updated": "2025-10-14T21:03:51.733279",
+      "auto_generated": true
+    },
+    "derrsom": {
+      "audio_file": "derrsom.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "there, there",
+      "last_updated": "2025-10-14T21:03:52.962186",
+      "auto_generated": true
+    },
+    "avhengig": {
+      "audio_file": "avhengig.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Addicted",
+      "last_updated": "2025-10-14T21:03:53.985352",
+      "auto_generated": true
+    },
+    "renhetskrav": {
+      "audio_file": "renhetskrav.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "purity requirements",
+      "last_updated": "2025-10-14T21:03:55.113062",
+      "auto_generated": true
+    },
+    "vrang": {
+      "audio_file": "vrang.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "inside out",
+      "last_updated": "2025-10-14T21:03:56.215307",
+      "auto_generated": true
+    },
+    "vikaren": {
+      "audio_file": "vikaren.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "the substitute",
+      "last_updated": "2025-10-14T21:03:57.142993",
+      "auto_generated": true
+    },
+    "arbridspunkt": {
+      "audio_file": "arbridspunkt.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "arbridpoint",
+      "last_updated": "2025-10-14T21:03:58.389028",
+      "auto_generated": true
+    },
+    "hengende": {
+      "audio_file": "hengende.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "hanging",
+      "last_updated": "2025-10-14T21:03:59.720057",
+      "auto_generated": true
+    },
+    "synlig": {
+      "audio_file": "synlig.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "visible",
+      "last_updated": "2025-10-14T21:04:01.050870",
+      "auto_generated": true
+    },
+    "utfører hvert trinn": {
+      "audio_file": "utfører hvert trinn.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "performs each step",
+      "last_updated": "2025-10-14T21:04:02.588488",
+      "auto_generated": true
+    },
+    "hastighet": {
+      "audio_file": "hastighet.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "rate",
+      "last_updated": "2025-10-14T21:04:04.021585",
+      "auto_generated": true
+    },
+    "regelmessige": {
+      "audio_file": "regelmessige.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Recurring:",
+      "last_updated": "2025-10-14T21:04:05.355267",
+      "auto_generated": true
+    },
+    "kassering": {
+      "audio_file": "kassering.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Disposal",
+      "last_updated": "2025-10-14T21:04:06.888957",
+      "auto_generated": true
+    },
+    "verdifullt": {
+      "audio_file": "verdifullt.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "valuable",
+      "last_updated": "2025-10-14T21:04:08.117374",
+      "auto_generated": true
+    },
+    "foredler": {
+      "audio_file": "foredler.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "refiner",
+      "last_updated": "2025-10-14T21:04:09.544761",
+      "auto_generated": true
+    },
+    "tydelige": {
+      "audio_file": "tydelige.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "clear",
+      "last_updated": "2025-10-14T21:04:10.876490",
+      "auto_generated": true
+    },
+    "rutiner": {
+      "audio_file": "rutiner.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "routines",
+      "last_updated": "2025-10-14T21:04:12.212648",
+      "auto_generated": true
+    },
+    "tømmes": {
+      "audio_file": "tømmes.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "emptied",
+      "last_updated": "2025-10-14T21:04:13.544559",
+      "auto_generated": true
+    },
+    "stivner": {
+      "audio_file": "stivner.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "solidifies.",
+      "last_updated": "2025-10-14T21:04:14.875058",
+      "auto_generated": true
+    },
+    "belastnig": {
+      "audio_file": "belastnig.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "burdensome",
+      "last_updated": "2025-10-14T21:04:15.996537",
+      "auto_generated": true
+    },
+    "kjølling": {
+      "audio_file": "kjølling.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "cooling",
+      "last_updated": "2025-10-14T21:04:17.026287",
+      "auto_generated": true
+    },
+    "skrus av": {
+      "audio_file": "skrus av.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "turn off",
+      "last_updated": "2025-10-14T21:04:18.459762",
+      "auto_generated": true
+    },
+    "sikring": {
+      "audio_file": "sikring.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "fuse",
+      "last_updated": "2025-10-14T21:04:20.098687",
+      "auto_generated": true
+    },
+    "bemannet": {
+      "audio_file": "bemannet.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "manned",
+      "last_updated": "2025-10-14T21:04:21.224562",
+      "auto_generated": true
+    },
+    "flaskehalser": {
+      "audio_file": "flaskehalser.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "bottleneck",
+      "last_updated": "2025-10-14T21:04:22.556754",
+      "auto_generated": true
+    },
+    "punkter": {
+      "audio_file": "punkter.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "any dots",
+      "last_updated": "2025-10-14T21:04:23.989657",
+      "auto_generated": true
+    },
+    "bestemeer": {
+      "audio_file": "bestemeer.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "best friend",
+      "last_updated": "2025-10-14T21:04:25.218866",
+      "auto_generated": true
+    },
+    "farten": {
+      "audio_file": "farten.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "the speed",
+      "last_updated": "2025-10-14T21:04:26.447288",
+      "auto_generated": true
+    },
+    "I alle fall": {
+      "audio_file": "I alle fall.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "In any case",
+      "last_updated": "2025-10-14T21:04:27.676379",
+      "auto_generated": true
+    },
+    "ta imot": {
+      "audio_file": "ta imot.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "accept",
+      "last_updated": "2025-10-14T21:04:29.109008",
+      "auto_generated": true
+    },
+    "momenter": {
+      "audio_file": "momenter.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "moments",
+      "last_updated": "2025-10-14T21:04:30.440512",
+      "auto_generated": true
+    },
+    "nøyaktighet": {
+      "audio_file": "nøyaktighet.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "accuracy",
+      "last_updated": "2025-10-14T21:04:31.670949",
+      "auto_generated": true
+    },
+    "grenseverdier": {
+      "audio_file": "grenseverdier.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Breakpoints",
+      "last_updated": "2025-10-14T21:04:32.795630",
+      "auto_generated": true
+    },
+    "svært": {
+      "audio_file": "svært.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Agranulocytosis",
+      "last_updated": "2025-10-14T21:04:34.333762",
+      "auto_generated": true
+    },
+    "forventningene": {
+      "audio_file": "forventningene.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "expectations",
+      "last_updated": "2025-10-14T21:04:35.355971",
+      "auto_generated": true
+    },
+    "oppfåtter": {
+      "audio_file": "oppfåtter.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "perceives",
+      "last_updated": "2025-10-14T21:04:36.789593",
+      "auto_generated": true
+    },
+    "avgjørende": {
+      "audio_file": "avgjørende.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Pivotal",
+      "last_updated": "2025-10-14T21:04:38.223600",
+      "auto_generated": true
+    },
+    "grossister": {
+      "audio_file": "grossister.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Wholesaler",
+      "last_updated": "2025-10-14T21:04:39.400173",
+      "auto_generated": true
+    },
+    "oppfylle": {
+      "audio_file": "oppfylle.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "fulfill",
+      "last_updated": "2025-10-14T21:04:41.089014",
+      "auto_generated": true
+    },
+    "uansett": {
+      "audio_file": "uansett.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Regardless. ",
+      "last_updated": "2025-10-14T21:04:42.319702",
+      "auto_generated": true
+    },
+    "æye": {
+      "audio_file": "æye.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "eye",
+      "last_updated": "2025-10-14T21:04:43.432449",
+      "auto_generated": true
+    },
+    "sluttkunden": {
+      "audio_file": "sluttkunden.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "end customer",
+      "last_updated": "2025-10-14T21:04:44.879092",
+      "auto_generated": true
+    },
+    "delaktig": {
+      "audio_file": "delaktig.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "involved",
+      "last_updated": "2025-10-14T21:04:45.800961",
+      "auto_generated": true
+    },
+    "slitestyrke": {
+      "audio_file": "slitestyrke.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Durability",
+      "last_updated": "2025-10-14T21:04:47.131465",
+      "auto_generated": true
+    },
+    "livslengde": {
+      "audio_file": "livslengde.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "lifespan",
+      "last_updated": "2025-10-14T21:04:48.360613",
+      "auto_generated": true
+    },
+    "smak": {
+      "audio_file": "smak.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "gustation",
+      "last_updated": "2025-10-14T21:04:49.282326",
+      "auto_generated": true
+    },
+    "utseense": {
+      "audio_file": "utseense.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "appearance",
+      "last_updated": "2025-10-14T21:04:50.819909",
+      "auto_generated": true
+    },
+    "prestisje": {
+      "audio_file": "prestisje.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "prestige",
+      "last_updated": "2025-10-14T21:04:51.944386",
+      "auto_generated": true
+    },
+    "nøye": {
+      "audio_file": "nøye.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "carefully",
+      "last_updated": "2025-10-14T21:04:53.417635",
+      "auto_generated": true
+    },
+    "vegger": {
+      "audio_file": "vegger.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "walls",
+      "last_updated": "2025-10-14T21:04:54.915696",
+      "auto_generated": true
+    },
+    "forslag": {
+      "audio_file": "forslag.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "proposal",
+      "last_updated": "2025-10-14T21:04:56.348913",
+      "auto_generated": true
+    },
+    "unædig": {
+      "audio_file": "unædig.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "useless",
+      "last_updated": "2025-10-14T21:04:57.572525",
+      "auto_generated": true
+    },
+    "stressfaktor": {
+      "audio_file": "stressfaktor.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "stress factor",
+      "last_updated": "2025-10-14T21:04:59.011079",
+      "auto_generated": true
+    },
+    "faglig": {
+      "audio_file": "faglig.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "professionally responsible",
+      "last_updated": "2025-10-14T21:05:00.034124",
+      "auto_generated": true
+    },
+    "utfordring": {
+      "audio_file": "utfordring.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "challenge",
+      "last_updated": "2025-10-14T21:05:01.263260",
+      "auto_generated": true
+    },
+    "tilgjengelig": {
+      "audio_file": "tilgjengelig.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "available",
+      "last_updated": "2025-10-14T21:05:02.698798",
+      "auto_generated": true
+    },
+    "annerledes": {
+      "audio_file": "annerledes.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Different",
+      "last_updated": "2025-10-14T21:05:04.028435",
+      "auto_generated": true
+    },
+    "minskes": {
+      "audio_file": "minskes.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "decreases",
+      "last_updated": "2025-10-14T21:05:05.767854",
+      "auto_generated": true
+    },
+    "hastigheten": {
+      "audio_file": "hastigheten.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "speed.",
+      "last_updated": "2025-10-14T21:05:07.100043",
+      "auto_generated": true
+    },
+    "skrus": {
+      "audio_file": "skrus.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "screwed",
+      "last_updated": "2025-10-14T21:05:08.226344",
+      "auto_generated": true
+    },
+    "muntlig": {
+      "audio_file": "muntlig.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "Oral",
+      "last_updated": "2025-10-14T21:05:09.412503",
+      "auto_generated": true
+    },
+    "gjenvinning": {
+      "audio_file": "gjenvinning.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "recovery",
+      "last_updated": "2025-10-14T21:05:10.479767",
+      "auto_generated": true
+    },
+    "gjenvinnes": {
+      "audio_file": "gjenvinnes.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "recycled",
+      "last_updated": "2025-10-14T21:05:11.805423",
+      "auto_generated": true
+    },
+    "skyld": {
+      "audio_file": "skyld.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "2",
+      "tags": [],
+      "translation": "guilt",
+      "last_updated": "2025-10-14T21:05:13.141004",
       "auto_generated": true
     }
   }

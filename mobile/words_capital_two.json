@@ -1,21 +1,508 @@
 {
-  "easy": [],
-  "medium": [],
+  "easy": [
+    {
+      "word": "løst",
+      "translation": "resolved",
+      "audio": "audio/løst.mp3"
+    },
+    {
+      "word": "skrus av",
+      "translation": "turn off",
+      "audio": "audio/skrus av.mp3"
+    },
+    {
+      "word": "ta imot",
+      "translation": "accept",
+      "audio": "audio/ta imot.mp3"
+    },
+    {
+      "word": "æye",
+      "translation": "eye",
+      "audio": "audio/æye.mp3"
+    },
+    {
+      "word": "smak",
+      "translation": "gustation",
+      "audio": "audio/smak.mp3"
+    },
+    {
+      "word": "nøye",
+      "translation": "carefully",
+      "audio": "audio/nøye.mp3"
+    }
+  ],
+  "medium": [
+    {
+      "word": "stiller inn",
+      "translation": "tunes in",
+      "audio": "audio/stiller inn.mp3"
+    },
+    {
+      "word": "avdekke",
+      "translation": "uncover",
+      "audio": "audio/avdekke.mp3"
+    },
+    {
+      "word": "mangel",
+      "translation": "lack",
+      "audio": "audio/mangel.mp3"
+    },
+    {
+      "word": "regnes",
+      "translation": "is considered",
+      "audio": "audio/regnes.mp3"
+    },
+    {
+      "word": "rammer",
+      "translation": "Frame",
+      "audio": "audio/rammer.mp3"
+    },
+    {
+      "word": "belaste",
+      "translation": "Charge",
+      "audio": "audio/belaste.mp3"
+    },
+    {
+      "word": "rykte",
+      "translation": "REPUTATION",
+      "audio": "audio/rykte.mp3"
+    },
+    {
+      "word": "særlig",
+      "translation": "especially",
+      "audio": "audio/særlig.mp3"
+    },
+    {
+      "word": "sårbar",
+      "translation": "vulnerable",
+      "audio": "audio/sårbar.mp3"
+    },
+    {
+      "word": "enorme",
+      "translation": "enormous",
+      "audio": "audio/enorme.mp3"
+    },
+    {
+      "word": "våken",
+      "translation": "awake",
+      "audio": "audio/våken.mp3"
+    },
+    {
+      "word": "tørker",
+      "translation": "dryer",
+      "audio": "audio/tørker.mp3"
+    },
+    {
+      "word": "derrsom",
+      "translation": "there, there",
+      "audio": "audio/derrsom.mp3"
+    },
+    {
+      "word": "vrang",
+      "translation": "inside out",
+      "audio": "audio/vrang.mp3"
+    },
+    {
+      "word": "vikaren",
+      "translation": "the substitute",
+      "audio": "audio/vikaren.mp3"
+    },
+    {
+      "word": "synlig",
+      "translation": "visible",
+      "audio": "audio/synlig.mp3"
+    },
+    {
+      "word": "rutiner",
+      "translation": "routines",
+      "audio": "audio/rutiner.mp3"
+    },
+    {
+      "word": "tømmes",
+      "translation": "emptied",
+      "audio": "audio/tømmes.mp3"
+    },
+    {
+      "word": "stivner",
+      "translation": "solidifies.",
+      "audio": "audio/stivner.mp3"
+    },
+    {
+      "word": "sikring",
+      "translation": "fuse",
+      "audio": "audio/sikring.mp3"
+    },
+    {
+      "word": "punkter",
+      "translation": "any dots",
+      "audio": "audio/punkter.mp3"
+    },
+    {
+      "word": "farten",
+      "translation": "the speed",
+      "audio": "audio/farten.mp3"
+    },
+    {
+      "word": "I alle fall",
+      "translation": "In any case",
+      "audio": "audio/I alle fall.mp3"
+    },
+    {
+      "word": "svært",
+      "translation": "Agranulocytosis",
+      "audio": "audio/svært.mp3"
+    },
+    {
+      "word": "uansett",
+      "translation": "Regardless. ",
+      "audio": "audio/uansett.mp3"
+    },
+    {
+      "word": "vegger",
+      "translation": "walls",
+      "audio": "audio/vegger.mp3"
+    },
+    {
+      "word": "forslag",
+      "translation": "proposal",
+      "audio": "audio/forslag.mp3"
+    },
+    {
+      "word": "unædig",
+      "translation": "useless",
+      "audio": "audio/unædig.mp3"
+    },
+    {
+      "word": "faglig",
+      "translation": "professionally responsible",
+      "audio": "audio/faglig.mp3"
+    },
+    {
+      "word": "minskes",
+      "translation": "decreases",
+      "audio": "audio/minskes.mp3"
+    },
+    {
+      "word": "skrus",
+      "translation": "screwed",
+      "audio": "audio/skrus.mp3"
+    },
+    {
+      "word": "muntlig",
+      "translation": "Oral",
+      "audio": "audio/muntlig.mp3"
+    },
+    {
+      "word": "skyld",
+      "translation": "guilt",
+      "audio": "audio/skyld.mp3"
+    }
+  ],
   "hard": [
     {
-      "word": "oppusset bærbar PC : Refurbished laptop",
-      "translation": "refurbished laptop : Refurbished laptop",
-      "audio": "audio/oppusset bærbar PC : Refurbished laptop.mp3"
+      "word": "tillfellet",
+      "translation": "case",
+      "audio": "audio/tillfellet.mp3"
     },
     {
-      "word": "Mobiltilbehør : Phone accessories",
-      "translation": "Mobile accessories : Phone accessories",
-      "audio": "audio/Mobiltilbehør : Phone accessories.mp3"
+      "word": "miljøprofilen",
+      "translation": "the environmental profile",
+      "audio": "audio/miljøprofilen.mp3"
     },
     {
-      "word": "Data tilbehør : Computer accessories",
-      "translation": "Computer accessories : Computer accessories",
-      "audio": "audio/Data tilbehør : Computer accessories.mp3"
+      "word": "Abeidet med å hå",
+      "translation": "The work of having",
+      "audio": "audio/Abeidet med å hå.mp3"
+    },
+    {
+      "word": "spennende",
+      "translation": "thrilling",
+      "audio": "audio/spennende.mp3"
+    },
+    {
+      "word": "bidragene",
+      "translation": "the contributions",
+      "audio": "audio/bidragene.mp3"
+    },
+    {
+      "word": "vil ikke holde lenge",
+      "translation": "won&#39;t last long",
+      "audio": "audio/vil ikke holde lenge.mp3"
+    },
+    {
+      "word": "henge sammen med dette",
+      "translation": "hang out with this",
+      "audio": "audio/henge sammen med dette.mp3"
+    },
+    {
+      "word": "selve grunnlaget",
+      "translation": "the very foundation",
+      "audio": "audio/selve grunnlaget.mp3"
+    },
+    {
+      "word": "prosesstyring",
+      "translation": "Process Control:",
+      "audio": "audio/prosesstyring.mp3"
+    },
+    {
+      "word": "påfølgende",
+      "translation": "following",
+      "audio": "audio/påfølgende.mp3"
+    },
+    {
+      "word": "fastsatte",
+      "translation": "determined",
+      "audio": "audio/fastsatte.mp3"
+    },
+    {
+      "word": "målinger",
+      "translation": "measurements",
+      "audio": "audio/målinger.mp3"
+    },
+    {
+      "word": "korrigere",
+      "translation": "Correcting",
+      "audio": "audio/korrigere.mp3"
+    },
+    {
+      "word": "årsakene",
+      "translation": "the reasons",
+      "audio": "audio/årsakene.mp3"
+    },
+    {
+      "word": "rekvisita",
+      "translation": "supplies",
+      "audio": "audio/rekvisita.mp3"
+    },
+    {
+      "word": "nødvendig",
+      "translation": "necessary",
+      "audio": "audio/nødvendig.mp3"
+    },
+    {
+      "word": "konsekvenser",
+      "translation": "Affect of Termination ",
+      "audio": "audio/konsekvenser.mp3"
+    },
+    {
+      "word": "begrenset",
+      "translation": "restricted",
+      "audio": "audio/begrenset.mp3"
+    },
+    {
+      "word": "påvirker",
+      "translation": "affects",
+      "audio": "audio/påvirker.mp3"
+    },
+    {
+      "word": "tidspunktene",
+      "translation": "the times",
+      "audio": "audio/tidspunktene.mp3"
+    },
+    {
+      "word": "instrukser",
+      "translation": "Instructions",
+      "audio": "audio/instrukser.mp3"
+    },
+    {
+      "word": "trygghet",
+      "translation": "Safety",
+      "audio": "audio/trygghet.mp3"
+    },
+    {
+      "word": "betydning",
+      "translation": "meaning",
+      "audio": "audio/betydning.mp3"
+    },
+    {
+      "word": "sikkerhet",
+      "translation": "safety",
+      "audio": "audio/sikkerhet.mp3"
+    },
+    {
+      "word": "avhengig",
+      "translation": "Addicted",
+      "audio": "audio/avhengig.mp3"
+    },
+    {
+      "word": "renhetskrav",
+      "translation": "purity requirements",
+      "audio": "audio/renhetskrav.mp3"
+    },
+    {
+      "word": "arbridspunkt",
+      "translation": "arbridpoint",
+      "audio": "audio/arbridspunkt.mp3"
+    },
+    {
+      "word": "hengende",
+      "translation": "hanging",
+      "audio": "audio/hengende.mp3"
+    },
+    {
+      "word": "utfører hvert trinn",
+      "translation": "performs each step",
+      "audio": "audio/utfører hvert trinn.mp3"
+    },
+    {
+      "word": "hastighet",
+      "translation": "rate",
+      "audio": "audio/hastighet.mp3"
+    },
+    {
+      "word": "regelmessige",
+      "translation": "Recurring:",
+      "audio": "audio/regelmessige.mp3"
+    },
+    {
+      "word": "kassering",
+      "translation": "Disposal",
+      "audio": "audio/kassering.mp3"
+    },
+    {
+      "word": "verdifullt",
+      "translation": "valuable",
+      "audio": "audio/verdifullt.mp3"
+    },
+    {
+      "word": "foredler",
+      "translation": "refiner",
+      "audio": "audio/foredler.mp3"
+    },
+    {
+      "word": "tydelige",
+      "translation": "clear",
+      "audio": "audio/tydelige.mp3"
+    },
+    {
+      "word": "belastnig",
+      "translation": "burdensome",
+      "audio": "audio/belastnig.mp3"
+    },
+    {
+      "word": "kjølling",
+      "translation": "cooling",
+      "audio": "audio/kjølling.mp3"
+    },
+    {
+      "word": "bemannet",
+      "translation": "manned",
+      "audio": "audio/bemannet.mp3"
+    },
+    {
+      "word": "flaskehalser",
+      "translation": "bottleneck",
+      "audio": "audio/flaskehalser.mp3"
+    },
+    {
+      "word": "bestemeer",
+      "translation": "best friend",
+      "audio": "audio/bestemeer.mp3"
+    },
+    {
+      "word": "momenter",
+      "translation": "moments",
+      "audio": "audio/momenter.mp3"
+    },
+    {
+      "word": "nøyaktighet",
+      "translation": "accuracy",
+      "audio": "audio/nøyaktighet.mp3"
+    },
+    {
+      "word": "grenseverdier",
+      "translation": "Breakpoints",
+      "audio": "audio/grenseverdier.mp3"
+    },
+    {
+      "word": "forventningene",
+      "translation": "expectations",
+      "audio": "audio/forventningene.mp3"
+    },
+    {
+      "word": "oppfåtter",
+      "translation": "perceives",
+      "audio": "audio/oppfåtter.mp3"
+    },
+    {
+      "word": "avgjørende",
+      "translation": "Pivotal",
+      "audio": "audio/avgjørende.mp3"
+    },
+    {
+      "word": "grossister",
+      "translation": "Wholesaler",
+      "audio": "audio/grossister.mp3"
+    },
+    {
+      "word": "oppfylle",
+      "translation": "fulfill",
+      "audio": "audio/oppfylle.mp3"
+    },
+    {
+      "word": "sluttkunden",
+      "translation": "end customer",
+      "audio": "audio/sluttkunden.mp3"
+    },
+    {
+      "word": "delaktig",
+      "translation": "involved",
+      "audio": "audio/delaktig.mp3"
+    },
+    {
+      "word": "slitestyrke",
+      "translation": "Durability",
+      "audio": "audio/slitestyrke.mp3"
+    },
+    {
+      "word": "livslengde",
+      "translation": "lifespan",
+      "audio": "audio/livslengde.mp3"
+    },
+    {
+      "word": "utseense",
+      "translation": "appearance",
+      "audio": "audio/utseense.mp3"
+    },
+    {
+      "word": "prestisje",
+      "translation": "prestige",
+      "audio": "audio/prestisje.mp3"
+    },
+    {
+      "word": "stressfaktor",
+      "translation": "stress factor",
+      "audio": "audio/stressfaktor.mp3"
+    },
+    {
+      "word": "utfordring",
+      "translation": "challenge",
+      "audio": "audio/utfordring.mp3"
+    },
+    {
+      "word": "tilgjengelig",
+      "translation": "available",
+      "audio": "audio/tilgjengelig.mp3"
+    },
+    {
+      "word": "annerledes",
+      "translation": "Different",
+      "audio": "audio/annerledes.mp3"
+    },
+    {
+      "word": "hastigheten",
+      "translation": "speed.",
+      "audio": "audio/hastigheten.mp3"
+    },
+    {
+      "word": "gjenvinning",
+      "translation": "recovery",
+      "audio": "audio/gjenvinning.mp3"
+    },
+    {
+      "word": "gjenvinnes",
+      "translation": "recycled",
+      "audio": "audio/gjenvinnes.mp3"
     }
   ]
 }
