@@ -302,6 +302,18 @@ function startSession() {
     enableGameControls();
     updateHeartsDisplay();
     
+    // Show/hide hearts based on game mode
+    const heartsContainer = document.querySelector('.hearts');
+    if (heartsContainer) {
+        if (gameMode === 'practice') {
+            heartsContainer.style.display = 'none';
+            console.log('💡 Øvelse mode: Hearts hidden (no lives system)');
+        } else {
+            heartsContainer.style.display = 'flex';
+            console.log('❤️ Aksjon mode: Hearts visible');
+        }
+    }
+    
     // Load first word
     loadNextWord();
 }
@@ -605,6 +617,12 @@ function endSession() {
     document.getElementById('start-btn').style.display = 'block';
     document.getElementById('streak-count').textContent = gameState.streak;
     
+    // Restore hearts display (in case it was hidden in practice mode)
+    const heartsContainer = document.querySelector('.hearts');
+    if (heartsContainer) {
+        heartsContainer.style.display = 'flex';
+    }
+    
     disableGameControls();
 }
 
@@ -735,11 +753,10 @@ function startTimer() {
             stopTimer();
             // Time's up - handle differently for practice vs action
             if (currentGameMode === 'practice') {
-                // In practice mode, lose a heart when time runs out and track missed word
-                gameState.hearts--;
-                updateHeartsDisplay();
+                // In practice mode, NO heart loss - just move to next word
+                // Track missed word for review
                 showResult(false, gameState.currentWord.word);
-                showNotification('⏰ Tiden er ute! Mistet et hjerte.', 'error');
+                showNotification('⏰ Tiden er ute! Går videre til neste ord.', 'warning');
                 
                 // Track missed word
                 gameState.missedWords.push({
@@ -748,7 +765,7 @@ function startTimer() {
                     reason: 'timeout'
                 });
                 
-                // Move to next word after delay
+                // Move to next word after delay (no heart loss!)
                 setTimeout(() => {
                     gameState.currentIndex++;
                     if (gameState.currentIndex < gameState.sessionWords.length) {
