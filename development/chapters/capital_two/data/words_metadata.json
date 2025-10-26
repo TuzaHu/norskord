@@ -20,8 +20,8 @@
       "last_updated": "2025-10-14T21:00:21.200009",
       "auto_generated": true
     },
-    "Abeidet med å hå": {
-      "audio_file": "Abeidet med å hå.mp3",
+    "Arbeidet med å ha": {
+      "audio_file": "Arbeidet med å ha.mp3",
       "difficulty": "hard",
       "category": "general",
       "chapter": "2",
@@ -370,13 +370,13 @@
       "last_updated": "2025-10-14T21:03:51.733279",
       "auto_generated": true
     },
-    "derrsom": {
-      "audio_file": "derrsom.mp3",
+    "dersom": {
+      "audio_file": "dersom.mp3",
       "difficulty": "medium",
       "category": "general",
       "chapter": "2",
       "tags": [],
-      "translation": "there, there",
+      "translation": "if",
       "last_updated": "2025-10-14T21:03:52.962186",
       "auto_generated": true
     },
@@ -420,13 +420,13 @@
       "last_updated": "2025-10-14T21:03:57.142993",
       "auto_generated": true
     },
-    "arbridspunkt": {
-      "audio_file": "arbridspunkt.mp3",
+    "arbeidspunkt": {
+      "audio_file": "arbeidspunkt.mp3",
       "difficulty": "hard",
       "category": "general",
       "chapter": "2",
       "tags": [],
-      "translation": "arbridpoint",
+      "translation": "working point",
       "last_updated": "2025-10-14T21:03:58.389028",
       "auto_generated": true
     },
@@ -550,13 +550,13 @@
       "last_updated": "2025-10-14T21:04:14.875058",
       "auto_generated": true
     },
-    "belastnig": {
-      "audio_file": "belastnig.mp3",
+    "belastning": {
+      "audio_file": "belastning.mp3",
       "difficulty": "hard",
       "category": "general",
       "chapter": "2",
       "tags": [],
-      "translation": "burdensome",
+      "translation": "burden",
       "last_updated": "2025-10-14T21:04:15.996537",
       "auto_generated": true
     },
@@ -620,13 +620,13 @@
       "last_updated": "2025-10-14T21:04:23.989657",
       "auto_generated": true
     },
-    "bestemeer": {
-      "audio_file": "bestemeer.mp3",
+    "bestemmer": {
+      "audio_file": "bestemmer.mp3",
       "difficulty": "hard",
       "category": "general",
       "chapter": "2",
       "tags": [],
-      "translation": "best friend",
+      "translation": "determines",
       "last_updated": "2025-10-14T21:04:25.218866",
       "auto_generated": true
     },
@@ -710,8 +710,8 @@
       "last_updated": "2025-10-14T21:04:35.355971",
       "auto_generated": true
     },
-    "oppfåtter": {
-      "audio_file": "oppfåtter.mp3",
+    "oppfatter": {
+      "audio_file": "oppfatter.mp3",
       "difficulty": "hard",
       "category": "general",
       "chapter": "2",
@@ -760,8 +760,8 @@
       "last_updated": "2025-10-14T21:04:42.319702",
       "auto_generated": true
     },
-    "æye": {
-      "audio_file": "æye.mp3",
+    "øye": {
+      "audio_file": "øye.mp3",
       "difficulty": "easy",
       "category": "general",
       "chapter": "2",
@@ -820,8 +820,8 @@
       "last_updated": "2025-10-14T21:04:49.282326",
       "auto_generated": true
     },
-    "utseense": {
-      "audio_file": "utseense.mp3",
+    "utseende": {
+      "audio_file": "utseende.mp3",
       "difficulty": "hard",
       "category": "general",
       "chapter": "2",
@@ -870,13 +870,13 @@
       "last_updated": "2025-10-14T21:04:56.348913",
       "auto_generated": true
     },
-    "unædig": {
-      "audio_file": "unædig.mp3",
+    "unødvendig": {
+      "audio_file": "unødvendig.mp3",
       "difficulty": "medium",
       "category": "general",
       "chapter": "2",
       "tags": [],
-      "translation": "useless",
+      "translation": "unnecessary",
       "last_updated": "2025-10-14T21:04:57.572525",
       "auto_generated": true
     },

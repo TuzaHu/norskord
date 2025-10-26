@@ -16,9 +16,9 @@
       "audio": "audio/ta imot.mp3"
     },
     {
-      "word": "æye",
+      "word": "øye",
       "translation": "eye",
-      "audio": "audio/æye.mp3"
+      "audio": "audio/øye.mp3"
     },
     {
       "word": "smak",
@@ -93,9 +93,9 @@
       "audio": "audio/tørker.mp3"
     },
     {
-      "word": "derrsom",
-      "translation": "there, there",
-      "audio": "audio/derrsom.mp3"
+      "word": "dersom",
+      "translation": "if",
+      "audio": "audio/dersom.mp3"
     },
     {
       "word": "vrang",
@@ -168,9 +168,9 @@
       "audio": "audio/forslag.mp3"
     },
     {
-      "word": "unædig",
-      "translation": "useless",
-      "audio": "audio/unædig.mp3"
+      "word": "unødvendig",
+      "translation": "unnecessary",
+      "audio": "audio/unødvendig.mp3"
     },
     {
       "word": "faglig",
@@ -210,9 +210,9 @@
       "audio": "audio/miljøprofilen.mp3"
     },
     {
-      "word": "Abeidet med å hå",
+      "word": "Arbeidet med å ha",
       "translation": "The work of having",
-      "audio": "audio/Abeidet med å hå.mp3"
+      "audio": "audio/Arbeidet med å ha.mp3"
     },
     {
       "word": "spennende",
@@ -330,9 +330,9 @@
       "audio": "audio/renhetskrav.mp3"
     },
     {
-      "word": "arbridspunkt",
-      "translation": "arbridpoint",
-      "audio": "audio/arbridspunkt.mp3"
+      "word": "arbeidspunkt",
+      "translation": "working point",
+      "audio": "audio/arbeidspunkt.mp3"
     },
     {
       "word": "hengende",
@@ -375,9 +375,9 @@
       "audio": "audio/tydelige.mp3"
     },
     {
-      "word": "belastnig",
-      "translation": "burdensome",
-      "audio": "audio/belastnig.mp3"
+      "word": "belastning",
+      "translation": "burden",
+      "audio": "audio/belastning.mp3"
     },
     {
       "word": "kjølling",
@@ -395,9 +395,9 @@
       "audio": "audio/flaskehalser.mp3"
     },
     {
-      "word": "bestemeer",
-      "translation": "best friend",
-      "audio": "audio/bestemeer.mp3"
+      "word": "bestemmer",
+      "translation": "determines",
+      "audio": "audio/bestemmer.mp3"
     },
     {
       "word": "momenter",
@@ -420,9 +420,9 @@
       "audio": "audio/forventningene.mp3"
     },
     {
-      "word": "oppfåtter",
+      "word": "oppfatter",
       "translation": "perceives",
-      "audio": "audio/oppfåtter.mp3"
+      "audio": "audio/oppfatter.mp3"
     },
     {
       "word": "avgjørende",
@@ -460,9 +460,9 @@
       "audio": "audio/livslengde.mp3"
     },
     {
-      "word": "utseense",
+      "word": "utseende",
       "translation": "appearance",
-      "audio": "audio/utseense.mp3"
+      "audio": "audio/utseende.mp3"
     },
     {
       "word": "prestisje",
