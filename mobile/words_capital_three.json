@@ -1,0 +1,223 @@
+{
+  "easy": [
+    {
+      "word": "ytre",
+      "translation": "outer",
+      "audio": "audio/ytre.mp3"
+    },
+    {
+      "word": "kull",
+      "translation": "coal",
+      "audio": "audio/kull.mp3"
+    },
+    {
+      "word": "gass",
+      "translation": "Gas",
+      "audio": "audio/gass.mp3"
+    },
+    {
+      "word": "papp",
+      "translation": "paperboard",
+      "audio": "audio/papp.mp3"
+    },
+    {
+      "word": "flis",
+      "translation": "Circle",
+      "audio": "audio/flis.mp3"
+    },
+    {
+      "word": "sopp",
+      "translation": "mushroom",
+      "audio": "audio/sopp.mp3"
+    }
+  ],
+  "medium": [
+    {
+      "word": "sur nedbør",
+      "translation": "Acid Rain",
+      "audio": "audio/sur nedbør.mp3"
+    },
+    {
+      "word": "samlet opp",
+      "translation": "collected",
+      "audio": "audio/samlet opp.mp3"
+    },
+    {
+      "word": "bevisst",
+      "translation": "conscious",
+      "audio": "audio/bevisst.mp3"
+    },
+    {
+      "word": "gevinst",
+      "translation": "win",
+      "audio": "audio/gevinst.mp3"
+    },
+    {
+      "word": "kartong",
+      "translation": "cardboard",
+      "audio": "audio/kartong.mp3"
+    },
+    {
+      "word": "papir",
+      "translation": "paper",
+      "audio": "audio/papir.mp3"
+    },
+    {
+      "word": "skrell",
+      "translation": "peel",
+      "audio": "audio/skrell.mp3"
+    },
+    {
+      "word": "stoffer",
+      "translation": "substances",
+      "audio": "audio/stoffer.mp3"
+    },
+    {
+      "word": "stadig",
+      "translation": "ever",
+      "audio": "audio/stadig.mp3"
+    },
+    {
+      "word": "består",
+      "translation": "pass",
+      "audio": "audio/består.mp3"
+    }
+  ],
+  "hard": [
+    {
+      "word": "Forbedring",
+      "translation": "Improvement",
+      "audio": "audio/Forbedring.mp3"
+    },
+    {
+      "word": "tilfellet",
+      "translation": "situation.",
+      "audio": "audio/tilfellet.mp3"
+    },
+    {
+      "word": "forvirring",
+      "translation": "confusion,",
+      "audio": "audio/forvirring.mp3"
+    },
+    {
+      "word": "forsuring",
+      "translation": "acidification",
+      "audio": "audio/forsuring.mp3"
+    },
+    {
+      "word": "virkningene",
+      "translation": "the effects",
+      "audio": "audio/virkningene.mp3"
+    },
+    {
+      "word": "hovedsakelig",
+      "translation": "mainly",
+      "audio": "audio/hovedsakelig.mp3"
+    },
+    {
+      "word": "gjødsler",
+      "translation": "fertilizers",
+      "audio": "audio/gjødsler.mp3"
+    },
+    {
+      "word": "gjødslingen",
+      "translation": "fertilization",
+      "audio": "audio/gjødslingen.mp3"
+    },
+    {
+      "word": "artssammensetning",
+      "translation": "species composition",
+      "audio": "audio/artssammensetning.mp3"
+    },
+    {
+      "word": "oljeutvinning",
+      "translation": "Petroleum industry",
+      "audio": "audio/oljeutvinning.mp3"
+    },
+    {
+      "word": "klimagasser",
+      "translation": "Greenhouse gas",
+      "audio": "audio/klimagasser.mp3"
+    },
+    {
+      "word": "kjemikalier",
+      "translation": "chemicals.",
+      "audio": "audio/kjemikalier.mp3"
+    },
+    {
+      "word": "tungmetaller",
+      "translation": "Heavy Metals",
+      "audio": "audio/tungmetaller.mp3"
+    },
+    {
+      "word": "miljøgifter",
+      "translation": "Toxins",
+      "audio": "audio/miljøgifter.mp3"
+    },
+    {
+      "word": "skadevirkninger",
+      "translation": "adverse effects",
+      "audio": "audio/skadevirkninger.mp3"
+    },
+    {
+      "word": "avfallsmengder",
+      "translation": "waste quantities",
+      "audio": "audio/avfallsmengder.mp3"
+    },
+    {
+      "word": "energiinnhold",
+      "translation": "energy content",
+      "audio": "audio/energiinnhold.mp3"
+    },
+    {
+      "word": "overflødige",
+      "translation": "redundant",
+      "audio": "audio/overflødige.mp3"
+    },
+    {
+      "word": "innsamling",
+      "translation": "collection",
+      "audio": "audio/innsamling.mp3"
+    },
+    {
+      "word": "kretsløpet",
+      "translation": "Body System, Cardiovascular",
+      "audio": "audio/kretsløpet.mp3"
+    },
+    {
+      "word": "plakatene",
+      "translation": "the posters",
+      "audio": "audio/plakatene.mp3"
+    },
+    {
+      "word": "ettpunktsleksjonene",
+      "translation": "the one-point lessons",
+      "audio": "audio/ettpunktsleksjonene.mp3"
+    },
+    {
+      "word": "førsteklasses produkt",
+      "translation": "first-class product",
+      "audio": "audio/førsteklasses produkt.mp3"
+    },
+    {
+      "word": "ved nærmere sjekk",
+      "translation": "upon closer inspection",
+      "audio": "audio/ved nærmere sjekk.mp3"
+    },
+    {
+      "word": "kartlegge",
+      "translation": "map",
+      "audio": "audio/kartlegge.mp3"
+    },
+    {
+      "word": "ordninger",
+      "translation": "Arrangement",
+      "audio": "audio/ordninger.mp3"
+    },
+    {
+      "word": "varneombud",
+      "translation": "safety representative",
+      "audio": "audio/varneombud.mp3"
+    }
+  ]
+}

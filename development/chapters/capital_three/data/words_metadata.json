@@ -1,4 +1,434 @@
 {
-  "words": {},
-  "last_updated": "2024-01-01T00:00:00"
+  "words": {
+    "Forbedring": {
+      "audio_file": "Forbedring.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "Improvement",
+      "last_updated": "2025-12-03T18:01:45.131687",
+      "auto_generated": true
+    },
+    "tilfellet": {
+      "audio_file": "tilfellet.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "situation.",
+      "last_updated": "2025-12-03T18:01:46.777531",
+      "auto_generated": true
+    },
+    "forvirring": {
+      "audio_file": "forvirring.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "confusion,",
+      "last_updated": "2025-12-03T18:01:48.512267",
+      "auto_generated": true
+    },
+    "ytre": {
+      "audio_file": "ytre.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "outer",
+      "last_updated": "2025-12-03T18:01:50.767563",
+      "auto_generated": true
+    },
+    "forsuring": {
+      "audio_file": "forsuring.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "acidification",
+      "last_updated": "2025-12-03T18:01:52.917351",
+      "auto_generated": true
+    },
+    "virkningene": {
+      "audio_file": "virkningene.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "the effects",
+      "last_updated": "2025-12-03T18:01:55.580133",
+      "auto_generated": true
+    },
+    "sur nedbør": {
+      "audio_file": "sur nedbør.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "Acid Rain",
+      "last_updated": "2025-12-03T18:02:01.003444",
+      "auto_generated": true
+    },
+    "hovedsakelig": {
+      "audio_file": "hovedsakelig.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "mainly",
+      "last_updated": "2025-12-03T18:02:03.364553",
+      "auto_generated": true
+    },
+    "gjødsler": {
+      "audio_file": "gjødsler.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "fertilizers",
+      "last_updated": "2025-12-03T18:02:05.103741",
+      "auto_generated": true
+    },
+    "gjødslingen": {
+      "audio_file": "gjødslingen.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "fertilization",
+      "last_updated": "2025-12-03T18:02:07.051984",
+      "auto_generated": true
+    },
+    "artssammensetning": {
+      "audio_file": "artssammensetning.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "species composition",
+      "last_updated": "2025-12-03T18:02:09.609133",
+      "auto_generated": true
+    },
+    "oljeutvinning": {
+      "audio_file": "oljeutvinning.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "Petroleum industry",
+      "last_updated": "2025-12-03T18:02:13.006960",
+      "auto_generated": true
+    },
+    "klimagasser": {
+      "audio_file": "klimagasser.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "Greenhouse gas",
+      "last_updated": "2025-12-03T18:02:16.369759",
+      "auto_generated": true
+    },
+    "kull": {
+      "audio_file": "kull.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "coal",
+      "last_updated": "2025-12-03T18:02:18.520272",
+      "auto_generated": true
+    },
+    "gass": {
+      "audio_file": "gass.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "Gas",
+      "last_updated": "2025-12-03T18:02:19.750824",
+      "auto_generated": true
+    },
+    "kjemikalier": {
+      "audio_file": "kjemikalier.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "chemicals.",
+      "last_updated": "2025-12-03T18:02:22.001517",
+      "auto_generated": true
+    },
+    "tungmetaller": {
+      "audio_file": "tungmetaller.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "Heavy Metals",
+      "last_updated": "2025-12-03T18:02:24.451821",
+      "auto_generated": true
+    },
+    "miljøgifter": {
+      "audio_file": "miljøgifter.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "Toxins",
+      "last_updated": "2025-12-03T18:02:25.989428",
+      "auto_generated": true
+    },
+    "skadevirkninger": {
+      "audio_file": "skadevirkninger.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "adverse effects",
+      "last_updated": "2025-12-03T18:02:27.938809",
+      "auto_generated": true
+    },
+    "samlet opp": {
+      "audio_file": "samlet opp.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "collected",
+      "last_updated": "2025-12-03T18:02:29.677836",
+      "auto_generated": true
+    },
+    "avfallsmengder": {
+      "audio_file": "avfallsmengder.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "waste quantities",
+      "last_updated": "2025-12-03T18:02:32.753243",
+      "auto_generated": true
+    },
+    "bevisst": {
+      "audio_file": "bevisst.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "conscious",
+      "last_updated": "2025-12-03T18:02:36.132017",
+      "auto_generated": true
+    },
+    "gevinst": {
+      "audio_file": "gevinst.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "win",
+      "last_updated": "2025-12-03T18:02:37.975894",
+      "auto_generated": true
+    },
+    "papp": {
+      "audio_file": "papp.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "paperboard",
+      "last_updated": "2025-12-03T18:02:42.069691",
+      "auto_generated": true
+    },
+    "kartong": {
+      "audio_file": "kartong.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "cardboard",
+      "last_updated": "2025-12-03T18:02:45.336107",
+      "auto_generated": true
+    },
+    "papir": {
+      "audio_file": "papir.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "paper",
+      "last_updated": "2025-12-03T18:02:47.193124",
+      "auto_generated": true
+    },
+    "energiinnhold": {
+      "audio_file": "energiinnhold.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "energy content",
+      "last_updated": "2025-12-03T18:02:48.523356",
+      "auto_generated": true
+    },
+    "skrell": {
+      "audio_file": "skrell.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "peel",
+      "last_updated": "2025-12-03T18:02:50.876138",
+      "auto_generated": true
+    },
+    "flis": {
+      "audio_file": "flis.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "Circle",
+      "last_updated": "2025-12-03T18:02:53.131738",
+      "auto_generated": true
+    },
+    "overflødige": {
+      "audio_file": "overflødige.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "redundant",
+      "last_updated": "2025-12-03T18:02:55.378085",
+      "auto_generated": true
+    },
+    "innsamling": {
+      "audio_file": "innsamling.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "collection",
+      "last_updated": "2025-12-03T18:02:58.248944",
+      "auto_generated": true
+    },
+    "sopp": {
+      "audio_file": "sopp.mp3",
+      "difficulty": "easy",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "mushroom",
+      "last_updated": "2025-12-03T18:03:00.503759",
+      "auto_generated": true
+    },
+    "stoffer": {
+      "audio_file": "stoffer.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "substances",
+      "last_updated": "2025-12-03T18:03:02.448221",
+      "auto_generated": true
+    },
+    "stadig": {
+      "audio_file": "stadig.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "ever",
+      "last_updated": "2025-12-03T18:03:05.520374",
+      "auto_generated": true
+    },
+    "kretsløpet": {
+      "audio_file": "kretsløpet.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "Body System, Cardiovascular",
+      "last_updated": "2025-12-03T18:03:07.977561",
+      "auto_generated": true
+    },
+    "plakatene": {
+      "audio_file": "plakatene.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "the posters",
+      "last_updated": "2025-12-03T18:03:10.229600",
+      "auto_generated": true
+    },
+    "ettpunktsleksjonene": {
+      "audio_file": "ettpunktsleksjonene.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "the one-point lessons",
+      "last_updated": "2025-12-03T18:03:11.972102",
+      "auto_generated": true
+    },
+    "førsteklasses produkt": {
+      "audio_file": "førsteklasses produkt.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "first-class product",
+      "last_updated": "2025-12-03T18:03:14.633375",
+      "auto_generated": true
+    },
+    "ved nærmere sjekk": {
+      "audio_file": "ved nærmere sjekk.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "upon closer inspection",
+      "last_updated": "2025-12-03T18:03:16.682806",
+      "auto_generated": true
+    },
+    "kartlegge": {
+      "audio_file": "kartlegge.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "map",
+      "last_updated": "2025-12-03T18:03:18.732706",
+      "auto_generated": true
+    },
+    "består": {
+      "audio_file": "består.mp3",
+      "difficulty": "medium",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "pass",
+      "last_updated": "2025-12-03T18:03:21.284229",
+      "auto_generated": true
+    },
+    "ordninger": {
+      "audio_file": "ordninger.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "Arrangement",
+      "last_updated": "2025-12-03T18:03:23.050601",
+      "auto_generated": true
+    },
+    "varneombud": {
+      "audio_file": "varneombud.mp3",
+      "difficulty": "hard",
+      "category": "general",
+      "chapter": "3",
+      "tags": [],
+      "translation": "safety representative",
+      "last_updated": "2025-12-03T18:03:24.872621",
+      "auto_generated": true
+    }
+  }
 }

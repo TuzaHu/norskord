@@ -9,6 +9,7 @@ import os
 import json
 import shutil
 import re
+import argparse
 from pathlib import Path
 from datetime import datetime
 import requests
@@ -181,9 +182,18 @@ class ChapterAudioGenerator:
         chapter_path = self.chapters_path / chapter_folder_name
         if chapter_path.exists():
             print(f"⚠️ Chapter {chapter_folder_name} already exists!")
-            response = input("Do you want to update it? (y/n): ").lower()
-            if response != 'y':
-                return False
+            # Auto-update if running non-interactively (command-line mode)
+            if hasattr(self, 'auto_update') and self.auto_update:
+                print("📝 Auto-updating existing chapter...")
+            else:
+                try:
+                    response = input("Do you want to update it? (y/n): ").lower()
+                    if response != 'y':
+                        return False
+                except EOFError:
+                    # Non-interactive mode, skip
+                    print("⏭️ Skipping (non-interactive mode)")
+                    return False
         
         # Get existing words to avoid duplicates
         existing_words = self.get_existing_words()
@@ -265,19 +275,33 @@ class ChapterAudioGenerator:
         with open(words_metadata_file, 'w', encoding='utf-8') as f:
             json.dump({"words": words_metadata}, f, ensure_ascii=False, indent=2)
         
-        # Create/update chapter metadata
+        # Get total word count (including existing words)
+        total_words = len(words_metadata)
+        
+        # Load existing chapter metadata if updating
+        chapter_metadata_file = chapter_path / "data" / "chapter_metadata.json"
+        existing_metadata = {}
+        if chapter_metadata_file.exists():
+            try:
+                with open(chapter_metadata_file, 'r', encoding='utf-8') as f:
+                    existing_metadata = json.load(f)
+            except Exception as e:
+                print(f"⚠️ Could not load existing chapter metadata: {e}")
+        
+        # Create/update chapter metadata (preserve existing values)
         chapter_metadata = {
             "name": f"Kapital {self.number_to_norwegian(chapter_num)}",
+            "folder": chapter_folder_name,
             "description": f"Norwegian words and phrases - Chapter {chapter_num}",
-            "unlocked": False,
-            "required_score": 70,
-            "words_count": new_words,
-            "best_score": 0,
-            "attempts": 0,
-            "created_date": datetime.now().isoformat()
+            "unlocked": existing_metadata.get("unlocked", False),
+            "required_score": existing_metadata.get("required_score", 70),
+            "words_count": total_words,
+            "best_score": existing_metadata.get("best_score", 0),
+            "attempts": existing_metadata.get("attempts", 0),
+            "created_date": existing_metadata.get("created_date", datetime.now().isoformat()),
+            "last_updated": datetime.now().isoformat()
         }
         
-        chapter_metadata_file = chapter_path / "data" / "chapter_metadata.json"
         with open(chapter_metadata_file, 'w', encoding='utf-8') as f:
             json.dump(chapter_metadata, f, ensure_ascii=False, indent=2)
         
@@ -310,8 +334,10 @@ class ChapterAudioGenerator:
         }
         return numbers.get(num, f"Kapittel {num}")
     
-    def run(self):
+    def run(self, chapter_number=None, auto_update=False):
         """Main execution function"""
+        self.auto_update = auto_update
+        
         print("🚀 Chapter Audio Generator - Processing merged_chapter_x.txt files")
         print("=" * 70)
         
@@ -324,7 +350,16 @@ class ChapterAudioGenerator:
             return
         
         # Find chapter files
-        chapter_files = self.find_chapter_files()
+        if chapter_number:
+            # Process specific chapter
+            chapter_file = self.base_path / f"merged_chapter_{chapter_number}.txt"
+            if not chapter_file.exists():
+                print(f"❌ File not found: {chapter_file.name}")
+                return
+            chapter_files = [chapter_file]
+        else:
+            # Find all chapter files
+            chapter_files = self.find_chapter_files()
         
         if not chapter_files:
             print("❌ No merged_chapter_x.txt files found!")
@@ -352,5 +387,10 @@ class ChapterAudioGenerator:
         print(f"🎵 All audio files generated with Norwegian TTS")
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Generate audio files for Norwegian learning chapters')
+    parser.add_argument('--chapter', type=int, help='Chapter number to process (e.g., 3 for merged_chapter_3.txt)')
+    parser.add_argument('--auto-update', action='store_true', help='Automatically update existing chapters without prompting')
+    args = parser.parse_args()
+    
     generator = ChapterAudioGenerator()
-    generator.run()
+    generator.run(chapter_number=args.chapter, auto_update=args.auto_update)
